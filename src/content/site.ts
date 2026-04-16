@@ -59,13 +59,24 @@ export const siteContent = {
         tier: 'TIER 1 — START HERE',
         price: '$500–$750',
         blurb: '60–90 min diagnostic session plus a written report showing exactly where revenue leaks and what it costs. This is a deliverable, not a free sales call. Diagnostic fee credited toward setup if you move forward.',
+        description: [
+          'A paid, structured audit of how revenue moves through your business — from first inquiry to repeat customer. We map every manual handoff, every dropped thread, and every place a dollar can walk out the door unnoticed.',
+          "You leave with a written report, a prioritized fix list with cost estimates, and an ROI projection for each fix. If you choose to move forward on Tier 2, the diagnostic fee is credited toward setup. If you don't, you still own the playbook.",
+        ],
         bullets: [
           '60–90 minute live diagnostic session',
           'Written report with revenue leak map',
           'Prioritized fix list with cost estimates',
           'ROI projection for each fix',
+          'Missed-call and follow-up loss calculation',
+          'Lifecycle and retention gap analysis',
+          'Tech stack review and consolidation notes',
           'Fee credited toward Tier 2 setup',
         ],
+        bestFor:
+          'Service businesses doing $500K–$5M that suspect revenue is leaking but need numbers before they commit to fixing it.',
+        notFor:
+          "Teams under $500K, pre-revenue startups, or anyone looking for a free consultation. This is a paid deliverable.",
         cta: { label: 'Book a Diagnostic →', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
       },
       {
@@ -73,16 +84,25 @@ export const siteContent = {
         tier: 'TIER 2',
         price: '$5,000 setup + $2,000/mo',
         blurb: 'GHL sub-account built on NILE-managed infrastructure, n8n automation, lifecycle mapping, training, and ongoing monthly optimization plus reporting. Your team focuses on serving customers. The systems handle the rest.',
+        description: [
+          "The fix, built and handed back to you running. A GoHighLevel sub-account configured on NILE-managed infrastructure, n8n automations wired to your actual workflow, lifecycle maps drawn from your real customer journey, and your team trained on how to operate it.",
+          "Then we stay. Monthly retainer covers optimization, reporting, and evolution as your business changes. You don't get handed a tool and left to figure it out — that's how systems die. We keep it running.",
+        ],
         bullets: [
           'GoHighLevel sub-account on NILE infrastructure',
           'CRM setup and pipeline configuration',
           'Automated lead capture and follow-up sequences',
+          'Missed-call text-back and speed-to-lead flows',
           'Lifecycle mapping for your customer journey',
           'n8n workflow automation',
           'Team training and onboarding',
           'Monthly optimization and reporting',
           'Ongoing retainer support',
         ],
+        bestFor:
+          'Operators who ran the diagnostic, saw the number, and want the systems built, trained, and maintained without hiring a full ops team.',
+        notFor:
+          "Businesses committed to keeping everything inside their existing stack, or teams unwilling to migrate a CRM. See Tier 3.",
         cta: { label: 'See Full Engagement →', href: 'mailto:senecacbenson@gmail.com?subject=Full Engagement Inquiry' },
       },
       {
@@ -90,16 +110,57 @@ export const siteContent = {
         tier: 'TIER 3',
         price: 'Custom Pricing',
         blurb: 'Automation work built within your existing tech stack. For businesses that need specific workflows without full NILE infrastructure. Scoped and priced per project.',
+        description: [
+          "For businesses that already run on tools they trust and don't want to migrate. We build inside your stack — HubSpot, Salesforce, Pipedrive, Monday, whatever you're on — and wire up the specific workflows you need.",
+          "Scoped and priced per project after a working session. You own the build, the documentation, and the handoff. No retainer required, though we're available for ongoing work if it makes sense.",
+        ],
         bullets: [
-          'Works within your existing tools',
+          'Works within your existing CRM and tools',
           'Custom automation workflows',
-          'Integration with current CRM/systems',
+          'Integrations with current systems',
+          'n8n or native platform automation',
           'Per-project scoping and pricing',
           'Documentation and handoff included',
         ],
+        bestFor:
+          "Established operators with a CRM they're keeping, who need specific automations built right rather than a full platform swap.",
+        notFor:
+          'Teams without an existing CRM, or anyone looking for ongoing managed operations. Tier 2 is the better fit.',
         cta: { label: 'Scope a Custom Build →', href: 'mailto:senecacbenson@gmail.com?subject=Custom Build Inquiry' },
       },
     ],
+    comparison: {
+      rows: [
+        {
+          label: 'Deliverable',
+          values: [
+            'Diagnostic session + written revenue leak report',
+            'GHL sub-account, automations, lifecycle map, training',
+            'Custom automation built inside your existing stack',
+          ],
+        },
+        {
+          label: 'Timeline',
+          values: ['1 session + report in ~1 week', '4–6 weeks to launch', 'Scoped per project'],
+        },
+        {
+          label: 'Investment',
+          values: ['$500–$750 (credited to Tier 2)', '$5K setup + $2K/month', 'Custom'],
+        },
+        {
+          label: 'Commitment',
+          values: ['One-time engagement', 'Setup + monthly retainer', 'Project-based'],
+        },
+        {
+          label: 'Best for',
+          values: [
+            'Operators who want the numbers before committing',
+            'Teams ready to hand ops to built-in-house systems',
+            'Businesses staying on their existing CRM',
+          ],
+        },
+      ],
+    },
   },
 
   approach: {
