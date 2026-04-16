@@ -234,6 +234,36 @@ export const siteContent = {
       { name: 'Honesty Over Comfort', description: "Say what clients need to hear, not what they want to hear." },
       { name: 'Progress Over Perfection', description: 'Done and running beats planned and sitting.' },
     ],
+    founderStory: {
+      pullQuote: 'Early growth does not stall because the idea is wrong. It stalls because there is no system underneath it.',
+      pullQuoteAttribution: 'Seneca Benson · Founder, NILE GrowthWorks',
+      paragraphs: [
+        'I\'ll be honest, I don\'t have all the answers. But I\'ve learned that the best solutions come from bringing the right people together and actually listening to what they have to say.',
+        'Ten years, two different worlds. Seven years on the phone at Stericycle, listening to customers explain what wasn\'t working. Three more inside ChemPoint\'s PMO, working with teams to figure out how to fix it. The real progress, I learned, happens when someone can translate between those worlds.',
+        'Then I co-founded The Capture Corner. Wearing the revenue-ops hat meant building the system myself — a lead qualification and booking flow that took our close rate from about 5% to 20% and scaled us from $5K to $100K ARR without adding headcount. That\'s when it clicked: most service businesses aren\'t losing because the idea is wrong. They\'re losing because there\'s no system underneath the idea.',
+        'NILE GrowthWorks is that system, built for operators like the ones I worked for — service businesses doing $500K–$5M who know something is leaking but don\'t have the time or the stack to stop it. We don\'t generate leads. We make sure every lead, customer, and dollar already in the door gets handled, followed up on, and retained. Systematically.',
+      ],
+    },
+    proof: {
+      eyebrow: 'WHAT I\'VE BUILT BEFORE',
+      title: 'Not theory. Numbers from real operating environments.',
+      stats: [
+        { value: '5% → 20%', label: 'Close rate', context: 'The Capture Corner — automated lead qualification + booking flow, same team size.' },
+        { value: '$5K → $100K', label: 'ARR scaled', context: 'Lean team at The Capture Corner, entirely on automated revenue-ops systems I designed, shipped, and iterated in production.' },
+        { value: '+28% / -94%', label: 'Efficiency / duplicates', context: 'Multi-department Dynamics 365 optimization program at ChemPoint.' },
+        { value: '$95M', label: 'Revenue program supported', context: 'Great Plains ERP implementation — accurate financial reporting across the revenue cycle.' },
+      ],
+    },
+    partnership: {
+      eyebrow: 'HOW WE WORK WITH CLIENTS',
+      title: 'Four principles, not a pitch deck.',
+      paragraphs: [
+        { lead: 'Grounded, not arrogant.', body: 'We know our craft, but we never talk down to anyone. The tone is "I\'ve seen this problem before, and here\'s what\'s worked" — never "let me tell you what you\'re doing wrong."' },
+        { lead: 'Real, not polished.', body: 'We don\'t hide behind jargon. If something is broken, we say it\'s broken. If something is working, we celebrate it. You should read our materials and think "this is a real person" — not "this was written by a committee."' },
+        { lead: 'Direct, not cold.', body: 'We get to the point. We don\'t waste your time. But direct doesn\'t mean harsh — it means we respect you enough to be clear.' },
+        { lead: 'Warm, not soft.', body: 'We care about the people we work with. We use humor where it fits. But warmth doesn\'t mean we avoid hard truths. It means we deliver them like someone who actually gives a damn about your outcome.' },
+      ],
+    },
   },
 
   finalCta: {
