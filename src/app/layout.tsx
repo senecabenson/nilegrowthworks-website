@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans, Fraunces } from 'next/font/google'
 import './globals.css'
 import GrainOverlay from '@/components/ui/GrainOverlay'
+import { PageShell } from '@/components/layout/PageShell'
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -30,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${jakarta.variable} ${fraunces.variable}`}>
       <body className="bg-ink text-mist font-sans antialiased selection:bg-ember selection:text-ink">
         <GrainOverlay />
-        {children}
+        <PageShell>{children}</PageShell>
       </body>
     </html>
   )
