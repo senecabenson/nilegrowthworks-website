@@ -1,4 +1,3 @@
-import type { Metadata } from 'next'
 import RevealOnScroll from '@/components/ui/RevealOnScroll'
 import SectionHeading from '@/components/ui/SectionHeading'
 import { FounderStory } from '@/components/about/FounderStory'
@@ -6,18 +5,6 @@ import { ProofStrip } from '@/components/about/ProofStrip'
 import { ValuesGrid } from '@/components/about/ValuesGrid'
 import { FinalCTA } from '@/components/home/FinalCTA'
 import { siteContent } from '@/content/site'
-
-export const metadata: Metadata = {
-  title: 'About — NILE GrowthWorks',
-  description:
-    'Revenue-operations and automation for service businesses doing $500K–$5M. We find where revenue is leaking. Then we build the systems that stop it.',
-  openGraph: {
-    title: 'About — NILE GrowthWorks',
-    description:
-      'Revenue-operations and automation for service businesses doing $500K–$5M. We find where revenue is leaking. Then we build the systems that stop it.',
-    type: 'website',
-  },
-}
 
 export default function AboutPage() {
   const { partnership } = siteContent.about

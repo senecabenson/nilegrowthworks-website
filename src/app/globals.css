@@ -7,6 +7,14 @@
   html { scroll-behavior: smooth; }
   body { font-feature-settings: 'ss01', 'ss02'; }
   h1, h2, h3 { @apply font-display; }
+  :focus-visible {
+    outline: 2px solid theme('colors.ember');
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+  [id] {
+    scroll-margin-top: 6rem;
+  }
 }
 @layer utilities {
   .text-balance { text-wrap: balance; }
@@ -18,5 +26,14 @@
   }
   .scrollbar-hide::-webkit-scrollbar {
     display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
 }

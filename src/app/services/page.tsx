@@ -1,21 +1,8 @@
-import type { Metadata } from 'next'
 import RevealOnScroll from '@/components/ui/RevealOnScroll'
 import TierCard from '@/components/services/TierCard'
 import ComparisonTable from '@/components/services/ComparisonTable'
 import { FinalCTA } from '@/components/home/FinalCTA'
 import { siteContent } from '@/content/site'
-
-export const metadata: Metadata = {
-  title: 'Services — NILE GrowthWorks',
-  description:
-    'Three tiers, one outcome: revenue that doesn\'t leak. Diagnostic, full engagement, or custom build for service businesses doing $500K–$5M.',
-  openGraph: {
-    title: 'Services — NILE GrowthWorks',
-    description:
-      'Three tiers, one outcome: revenue that doesn\'t leak. Diagnostic, full engagement, or custom build.',
-    type: 'website',
-  },
-}
 
 export default function ServicesPage() {
   const { tiers } = siteContent.services

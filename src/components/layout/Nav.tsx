@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
+import { usePathname } from 'next/navigation'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
@@ -9,6 +10,7 @@ import MagneticButton from '@/components/ui/MagneticButton'
 import { siteContent } from '@/content/site'
 
 export function Nav() {
+  const pathname = usePathname()
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -47,6 +49,7 @@ export function Nav() {
                 <Link
                   href={link.href}
                   className="text-[13px] font-sans uppercase tracking-[0.15em] text-slate hover:text-mist transition-colors border-b-[1.5px] border-transparent hover:border-ember transition-all duration-300 pb-0.5"
+                  aria-current={pathname === link.href ? 'page' : undefined}
                 >
                   {link.label}
                 </Link>

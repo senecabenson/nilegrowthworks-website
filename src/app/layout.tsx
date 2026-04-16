@@ -17,12 +17,20 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://nilegrowthworks.com'),
   title: 'NILE GrowthWorks — Build it so it runs.',
   description: 'We find where your revenue is leaking. Then we build the systems that stop it. Revenue operations for service businesses doing $500K–$5M.',
+  icons: {
+    icon: [
+      { url: '/favicon.svg', type: 'image/svg+xml' },
+      { url: '/favicon.ico' },
+    ],
+  },
   openGraph: {
     title: 'NILE GrowthWorks',
     description: 'Revenue operations and automation for San Diego service businesses.',
     type: 'website',
+    images: ['/og-image.png'],
   },
 }
 
