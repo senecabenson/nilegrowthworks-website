@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Plus_Jakarta_Sans, Fraunces } from 'next/font/google'
 import './globals.css'
+import GrainOverlay from '@/components/ui/GrainOverlay'
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -28,6 +29,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${jakarta.variable} ${fraunces.variable}`}>
       <body className="bg-ink text-mist font-sans antialiased selection:bg-ember selection:text-ink">
+        <GrainOverlay />
         {children}
       </body>
     </html>
