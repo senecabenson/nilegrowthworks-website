@@ -4,6 +4,7 @@ import { ProblemStatement } from '@/components/home/ProblemStatement'
 import { ServicesOverview } from '@/components/home/ServicesOverview'
 import { ApproachSteps } from '@/components/home/ApproachSteps'
 import { VerticalProofStrip } from '@/components/home/VerticalProofStrip'
+import { RevenueCalculator } from '@/components/home/RevenueCalculator'
 import { AboutSnippet } from '@/components/home/AboutSnippet'
 import { FinalCTA } from '@/components/home/FinalCTA'
 
@@ -16,7 +17,7 @@ export default function Home() {
       <ServicesOverview />
       <ApproachSteps />
       <VerticalProofStrip />
-      {/* RevenueCalculator will be added here in Task 9 */}
+      <RevenueCalculator />
       <AboutSnippet />
       <FinalCTA />
     </>

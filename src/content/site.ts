@@ -148,15 +148,15 @@ export const siteContent = {
 
   calculator: {
     eyebrow: 'SEE YOUR NUMBERS',
-    title: 'How much revenue is',
-    titleAccent: 'leaking?',
-    description: "Adjust the sliders to match your business. No email required — the math speaks for itself.",
+    title: 'How much revenue is leaking?',
+    titleAccent: 'leaking',
+    description: 'Adjust the sliders to match your business. No email required — the math speaks for itself.',
     cta: 'Get the full picture — book a $500 diagnostic',
     presets: {
-      'Property Management': { avgTicket: 2700, missedPerWeek: 3, followUpHours: 48, repeatRate: 0.40 },
-      'HVAC & Plumbing': { avgTicket: 700, missedPerWeek: 4, followUpHours: 24, repeatRate: 0.55 },
-      'Med Spa': { avgTicket: 350, missedPerWeek: 6, followUpHours: 36, repeatRate: 0.73 },
-      'Other Service Business': { avgTicket: 500, missedPerWeek: 4, followUpHours: 24, repeatRate: 0.50 },
+      'Property Management':     { avgTicket: 2700, missedPerWeek: 3, followUpHours: 48, repeatRate: 0.40 },
+      'HVAC & Plumbing':         { avgTicket: 700,  missedPerWeek: 4, followUpHours: 24, repeatRate: 0.55 },
+      'Med Spa':                 { avgTicket: 350,  missedPerWeek: 6, followUpHours: 36, repeatRate: 0.73 },
+      'Other Service Business':  { avgTicket: 500,  missedPerWeek: 4, followUpHours: 24, repeatRate: 0.50 },
     },
   },
 
