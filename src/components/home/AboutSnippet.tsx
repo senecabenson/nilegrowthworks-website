@@ -6,7 +6,7 @@ import { siteContent } from '@/content/site'
 
 export function AboutSnippet() {
   return (
-    <section className="py-32 bg-ink">
+    <section className="py-16 md:py-32 bg-ink">
       <div className="container-x">
         <div className="grid grid-cols-12 gap-12">
           <div className="col-span-12 lg:col-span-6">

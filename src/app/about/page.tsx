@@ -12,7 +12,7 @@ export default function AboutPage() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-32 pb-20 md:pt-40 md:pb-28 bg-navy relative">
+      <section className="pt-20 pb-12 md:pt-40 md:pb-28 bg-navy relative">
         <div className="container-x">
           <RevealOnScroll>
             <div className="max-w-4xl">
@@ -40,7 +40,7 @@ export default function AboutPage() {
       <ValuesGrid />
 
       {/* Partnership Principles */}
-      <section className="py-32 bg-navy">
+      <section className="py-16 md:py-32 bg-navy">
         <div className="container-x">
           <RevealOnScroll>
             <SectionHeading

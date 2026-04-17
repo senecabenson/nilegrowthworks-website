@@ -48,10 +48,10 @@ export function Hero() {
       />
 
       {/* Content grid */}
-      <div className="container-x w-full grid grid-cols-12 gap-8 items-center py-24">
+      <div className="container-x w-full grid grid-cols-12 gap-8 items-center py-12 md:py-24">
         {/* Left column — text */}
         <motion.div
-          className="col-span-12 lg:col-span-7"
+          className="col-span-12"
           initial="hidden"
           animate="visible"
           variants={containerVariants}
@@ -117,7 +117,7 @@ export function Hero() {
         </motion.div>
 
         {/* Right column — animated logo */}
-        <div className="col-span-12 lg:col-span-5 flex justify-center lg:justify-end">
+        <div className="hidden lg:flex col-span-12 lg:col-span-5 justify-center lg:justify-end">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}

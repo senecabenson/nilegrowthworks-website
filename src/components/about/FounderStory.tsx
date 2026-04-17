@@ -7,10 +7,10 @@ export function FounderStory() {
   const { founderStory } = siteContent.about
 
   return (
-    <section className="py-32 bg-ink">
+    <section className="py-16 md:py-32 bg-ink">
       <div className="container-x">
         <RevealOnScroll>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-20 items-start">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-20 items-start">
             {/* Left: Pull quote */}
             <div>
               <p className="font-display italic text-h2 text-ember leading-[1.15]">

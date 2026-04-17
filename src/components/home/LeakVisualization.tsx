@@ -233,7 +233,7 @@ function StageCard({
       onMouseEnter={onHover}
       onMouseLeave={onLeave}
       className={cn(
-        'group relative p-8 border border-mist/10 bg-ink/40 backdrop-blur-sm transition-all duration-500 cursor-default',
+        'group relative p-5 sm:p-8 border border-mist/10 bg-ink/40 backdrop-blur-sm transition-all duration-500 cursor-default',
         isHovered && 'border-ember/40 bg-navy/50'
       )}
     >
@@ -245,7 +245,7 @@ function StageCard({
         )}
       />
 
-      <p className="font-display italic text-5xl text-ember leading-none">
+      <p className="font-display italic text-3xl sm:text-5xl text-ember leading-none">
         {stage.number}
       </p>
       <h3 className="mt-6 font-sans font-bold text-lg text-mist">
@@ -267,7 +267,7 @@ export function LeakVisualization() {
   const { leak } = siteContent
 
   return (
-    <section className="relative overflow-hidden bg-navy-deep py-32">
+    <section className="relative overflow-hidden bg-navy-deep py-16 md:py-32">
       {/* Subtle radial glow — bottom center */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -279,7 +279,7 @@ export function LeakVisualization() {
 
       <div className="container-x">
         <RevealOnScroll>
-          <div className="grid grid-cols-12 gap-12 items-start">
+          <div className="grid grid-cols-12 gap-6 md:gap-12 items-start">
             {/* Left column — heading */}
             <div className="col-span-12 lg:col-span-5">
               <SectionHeading

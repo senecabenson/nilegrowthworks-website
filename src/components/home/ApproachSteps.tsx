@@ -5,7 +5,7 @@ import { siteContent } from '@/content/site'
 
 export function ApproachSteps() {
   return (
-    <section className="py-32 bg-ink">
+    <section className="py-16 md:py-32 bg-ink">
       <div className="container-x">
         <RevealOnScroll>
           <SectionHeading
@@ -26,7 +26,7 @@ export function ApproachSteps() {
               >
                 <div className="col-span-12 md:col-span-3">
                   <p className={cn(
-                    'font-display italic text-6xl md:text-7xl leading-none',
+                    'font-display italic text-4xl sm:text-5xl md:text-7xl leading-none',
                     i === 1 ? 'text-teal' : 'text-ember'
                   )}>
                     {step.number}

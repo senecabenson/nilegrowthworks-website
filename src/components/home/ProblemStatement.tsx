@@ -45,7 +45,7 @@ function HighlightedQuote({ text }: { text: string }) {
 
 export function ProblemStatement() {
   return (
-    <section className="py-40 bg-ink relative">
+    <section className="py-20 md:py-40 bg-ink relative">
       <div className="container-x max-w-6xl">
         <RevealOnScroll>
           <p className="font-display text-h1 italic text-mist leading-[1.1] text-balance">

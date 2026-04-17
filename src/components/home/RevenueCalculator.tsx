@@ -180,7 +180,7 @@ export function RevenueCalculator() {
     followUpHours > 1 ? '78% of leads go to whoever responds first' : null
 
   return (
-    <section id="calculator" className="relative overflow-hidden bg-ink py-32 scroll-mt-24">
+    <section id="calculator" className="relative overflow-hidden bg-ink py-16 md:py-32 scroll-mt-24">
       <BlueprintGrid />
       {/* Radial accent */}
       <div
@@ -204,7 +204,7 @@ export function RevenueCalculator() {
         <RevealOnScroll delay={0.15}>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
             {/* ── LEFT: Inputs ──────────────────────────────────────── */}
-            <div className="space-y-8 p-8 md:p-10 border border-mist/10 bg-navy-deep/60 backdrop-blur-sm">
+            <div className="space-y-8 p-5 sm:p-8 md:p-10 border border-mist/10 bg-navy-deep/60 backdrop-blur-sm">
               <div className="space-y-3">
                 <label
                   htmlFor="revcalc-business-type"
@@ -288,7 +288,7 @@ export function RevenueCalculator() {
             {/* ── RIGHT: Live output dashboard ──────────────────────── */}
             <div className="space-y-8">
               {/* Big number */}
-              <div className="relative p-8 md:p-10 border border-ember/30 bg-navy-deep/70 overflow-hidden">
+              <div className="relative p-5 sm:p-8 md:p-10 border border-ember/30 bg-navy-deep/70 overflow-hidden">
                 <div
                   aria-hidden
                   className="pointer-events-none absolute -top-12 -right-12 w-64 h-64 rounded-full opacity-30 blur-3xl"

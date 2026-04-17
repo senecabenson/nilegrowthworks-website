@@ -5,8 +5,8 @@ import { siteContent } from '@/content/site'
 export function Footer() {
   return (
     <footer className="border-t border-mist/10 bg-ink">
-      <div className="container-x pt-32 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-16">
+      <div className="container-x pt-16 md:pt-32 pb-12">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
           {/* Column 1: tagline + copyright */}
           <div>
             <p className="font-display text-h2 italic text-ember leading-tight">

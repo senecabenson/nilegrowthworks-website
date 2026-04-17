@@ -16,13 +16,13 @@ export default function TierCard({ tier, featured = false, delay = 0 }: TierCard
     <RevealOnScroll delay={delay}>
       <article
         className={cn(
-          'relative border transition-colors duration-300 p-10 md:p-14',
+          'relative border transition-colors duration-300 p-6 sm:p-8 md:p-14',
           featured
             ? 'border-ember/60 bg-gradient-to-br from-navy-deep to-navy'
             : 'border-mist/10 bg-navy-deep/60 hover:border-mist/30'
         )}
       >
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-10 lg:gap-16">
           {/* Left column — identity + copy */}
           <div className="lg:col-span-7">
             <p
@@ -34,14 +34,14 @@ export default function TierCard({ tier, featured = false, delay = 0 }: TierCard
               {tier.tier}
             </p>
 
-            <h3 className="mt-5 font-display italic text-4xl md:text-5xl text-mist leading-[1.05]">
+            <h3 className="mt-5 font-display italic text-3xl sm:text-4xl md:text-5xl text-mist leading-[1.05]">
               {tier.name}
             </h3>
 
             <p
               className={cn(
                 'mt-6 font-display italic',
-                'text-[40px] md:text-[48px] leading-none',
+                'text-[28px] sm:text-[36px] md:text-[48px] leading-none',
                 featured ? 'text-ember' : 'text-ember-soft'
               )}
             >

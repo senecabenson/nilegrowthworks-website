@@ -10,7 +10,7 @@ export default function ServicesPage() {
   return (
     <>
       {/* Hero */}
-      <section className="pt-32 pb-20 md:pt-40 md:pb-28 bg-navy relative">
+      <section className="pt-20 pb-12 md:pt-40 md:pb-28 bg-navy relative">
         <div className="container-x">
           <RevealOnScroll>
             <div className="max-w-4xl">

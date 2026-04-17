@@ -43,7 +43,7 @@ function TierCard({ tier, featured, delay }: { tier: Tier; featured: boolean; de
 
 export function ServicesOverview() {
   return (
-    <section id="diagnostic" className="py-32 bg-navy relative scroll-mt-24">
+    <section id="diagnostic" className="py-16 md:py-32 bg-navy relative scroll-mt-24">
       <div className="container-x">
         <RevealOnScroll>
           <SectionHeading

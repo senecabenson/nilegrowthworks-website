@@ -9,7 +9,7 @@ export function ProofStrip() {
   const { proof } = siteContent.about
 
   return (
-    <section className="py-24 bg-navy-deep">
+    <section className="py-12 md:py-24 bg-navy-deep">
       <div className="container-x">
         <RevealOnScroll>
           <SectionHeading

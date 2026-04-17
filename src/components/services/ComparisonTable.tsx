@@ -18,7 +18,7 @@ export default function ComparisonTable() {
 
         <RevealOnScroll delay={0.1}>
           <div className="mt-10 overflow-x-auto border border-mist/10">
-            <table className="w-full border-collapse text-left">
+            <table className="w-full min-w-[640px] border-collapse text-left">
               <thead>
                 <tr className="border-b border-mist/10 bg-navy">
                   <th
@@ -73,6 +73,7 @@ export default function ComparisonTable() {
               </tbody>
             </table>
           </div>
+          <p className="mt-3 text-xs text-slate md:hidden">Scroll → to compare tiers</p>
         </RevealOnScroll>
       </div>
     </section>
