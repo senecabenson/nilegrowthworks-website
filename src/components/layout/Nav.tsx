@@ -40,8 +40,8 @@ export function Nav() {
               priority
               className="h-7 w-auto"
             />
-            <span className="hidden sm:block font-sans font-extrabold text-mist text-[15px] tracking-wide leading-tight">
-              NILE<br /><span className="font-normal text-[13px] tracking-[0.04em] text-fog">GrowthWorks</span>
+            <span className="font-sans font-extrabold text-mist text-[13px] sm:text-[15px] tracking-wide leading-tight">
+              NILE<br /><span className="font-normal text-[11px] sm:text-[13px] tracking-[0.04em] text-fog">GrowthWorks</span>
             </span>
           </Link>
 
