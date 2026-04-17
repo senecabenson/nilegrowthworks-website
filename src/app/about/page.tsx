@@ -1,5 +1,6 @@
 import RevealOnScroll from '@/components/ui/RevealOnScroll'
 import SectionHeading from '@/components/ui/SectionHeading'
+import { BrandStory } from '@/components/about/BrandStory'
 import { FounderStory } from '@/components/about/FounderStory'
 import { ProofStrip } from '@/components/about/ProofStrip'
 import { ValuesGrid } from '@/components/about/ValuesGrid'
@@ -29,6 +30,9 @@ export default function AboutPage() {
           </RevealOnScroll>
         </div>
       </section>
+
+      {/* Brand Story */}
+      <BrandStory />
 
       {/* Founder Story */}
       <FounderStory />
