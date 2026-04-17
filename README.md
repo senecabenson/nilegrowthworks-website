@@ -1,3 +1,24 @@
+# NILE GrowthWorks Website
+
+Marketing site for NILE GrowthWorks — built with Next.js 14 App Router + Tailwind CSS + Framer Motion.
+
+## E2E Testing
+
+The test suite uses [Stagehand](https://github.com/browserbasehq/stagehand) (AI-driven Playwright wrapper) for end-to-end verification.
+
+**Prerequisite:** `ANTHROPIC_API_KEY` must be set before running e2e tests. Stagehand uses it for AI-driven selector resolution.
+
+```bash
+export ANTHROPIC_API_KEY=your-key-here
+npm run test:e2e
+# or headed (opens browser window):
+HEADLESS=false npm run test:e2e
+```
+
+Screenshots are saved to `tests/e2e/screenshots/` (gitignored).
+
+---
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
