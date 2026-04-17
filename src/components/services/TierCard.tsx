@@ -64,7 +64,7 @@ export default function TierCard({ tier, featured = false, delay = 0 }: TierCard
                 <p className="mt-3 text-sm text-fog leading-relaxed">{tier.bestFor}</p>
               </div>
               <div className="border border-mist/10 p-5">
-                <p className="text-eyebrow font-sans uppercase tracking-[0.25em] text-iron">
+                <p className="text-eyebrow font-sans uppercase tracking-[0.25em] text-teal/70">
                   Not for
                 </p>
                 <p className="mt-3 text-sm text-fog leading-relaxed">{tier.notFor}</p>

@@ -1,3 +1,4 @@
+import { cn } from '@/lib/cn'
 import SectionHeading from '@/components/ui/SectionHeading'
 import MagneticButton from '@/components/ui/MagneticButton'
 import RevealOnScroll from '@/components/ui/RevealOnScroll'
@@ -29,7 +30,10 @@ export function AboutSnippet() {
               <ul className="space-y-8">
                 {siteContent.about.values.map((value, i) => (
                   <li key={value.name} className="flex gap-6">
-                    <span className="font-display italic text-2xl text-ember flex-shrink-0 w-10">
+                    <span className={cn(
+                      'font-display italic text-2xl flex-shrink-0 w-10',
+                      i % 2 === 1 ? 'text-teal' : 'text-ember'
+                    )}>
                       {String(i + 1).padStart(2, '0')}
                     </span>
                     <div>

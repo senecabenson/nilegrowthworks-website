@@ -180,7 +180,7 @@ export function RevenueCalculator() {
     followUpHours > 1 ? '78% of leads go to whoever responds first' : null
 
   return (
-    <section className="relative overflow-hidden bg-ink py-32">
+    <section id="calculator" className="relative overflow-hidden bg-ink py-32 scroll-mt-24">
       <BlueprintGrid />
       {/* Radial accent */}
       <div

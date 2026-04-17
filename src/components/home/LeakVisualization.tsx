@@ -273,7 +273,7 @@ export function LeakVisualization() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(ellipse at bottom center, rgba(214,181,58,0.06), transparent 65%)',
+            'radial-gradient(ellipse at bottom center, rgba(30,147,163,0.06), transparent 65%)',
         }}
       />
 

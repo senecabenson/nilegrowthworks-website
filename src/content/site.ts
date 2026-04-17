@@ -9,7 +9,7 @@ export const siteContent = {
   },
 
   hero: {
-    eyebrow: 'REVENUE OPERATIONS · SAN DIEGO',
+    eyebrow: 'NILE GROWTHWORKS · REVENUE OPERATIONS · SAN DIEGO',
     title: 'Build it',
     titleAccent: 'so it runs.',
     subhead: 'We find where your revenue is leaking. Then we build the systems that stop it.',

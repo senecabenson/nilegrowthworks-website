@@ -14,7 +14,7 @@ export default function ServicesPage() {
         <div className="container-x">
           <RevealOnScroll>
             <div className="max-w-4xl">
-              <p className="text-eyebrow font-sans uppercase tracking-[0.3em] text-ember">
+              <p className="text-eyebrow font-sans uppercase tracking-[0.3em] text-teal">
                 SERVICES
               </p>
               <h1 className="mt-6 font-display text-h1 text-mist leading-[1.02] text-balance">

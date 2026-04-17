@@ -1,5 +1,6 @@
 'use client'
 
+import { cn } from '@/lib/cn'
 import RevealOnScroll from '@/components/ui/RevealOnScroll'
 import SectionHeading from '@/components/ui/SectionHeading'
 import { siteContent } from '@/content/site'
@@ -19,7 +20,7 @@ export function ProofStrip() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-10 gap-y-12">
             {proof.stats.map((stat, idx) => (
               <div key={idx}>
-                <p className="font-display italic text-h2 text-ember">
+                <p className={cn('font-display italic text-h2', idx % 2 === 1 ? 'text-teal' : 'text-ember')}>
                   {stat.value}
                 </p>
                 <p className="font-sans font-semibold text-mist text-sm uppercase tracking-wider mt-3">
@@ -28,7 +29,7 @@ export function ProofStrip() {
                 <p className="font-sans text-[14px] text-fog leading-snug max-w-xs mt-3">
                   {stat.context}
                 </p>
-                <div className="border-b border-ember/30 mt-6 pt-0" />
+                <div className={cn('border-b mt-6 pt-0', idx % 2 === 1 ? 'border-teal/30' : 'border-ember/30')} />
               </div>
             ))}
           </div>

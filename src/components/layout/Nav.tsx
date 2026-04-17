@@ -31,7 +31,7 @@ export function Nav() {
       >
         <div className="container-x flex items-center justify-between">
           {/* Left: wordmark */}
-          <Link href="/" className="flex-shrink-0">
+          <Link href="/" className="flex-shrink-0 flex items-center gap-3">
             <Image
               src="/logos/nile-wordmark-white.png"
               alt="NILE GrowthWorks"
@@ -40,6 +40,9 @@ export function Nav() {
               priority
               className="h-7 w-auto"
             />
+            <span className="hidden sm:block font-sans font-extrabold text-mist text-[15px] tracking-wide leading-tight">
+              NILE<br /><span className="font-normal text-[13px] tracking-[0.04em] text-fog">GrowthWorks</span>
+            </span>
           </Link>
 
           {/* Center: nav links (desktop only) */}

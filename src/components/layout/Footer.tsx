@@ -19,7 +19,7 @@ export function Footer() {
           <div className="flex flex-col gap-2">
             <a
               href={`mailto:${siteContent.footer.email}`}
-              className="text-[14px] text-fog hover:text-ember transition-colors"
+              className="text-[14px] text-fog hover:text-teal transition-colors"
             >
               {siteContent.footer.email}
             </a>
@@ -45,6 +45,7 @@ export function Footer() {
               >
                 <Mail size={20} />
               </a>
+              <div className="mt-6 h-px w-12 bg-gradient-to-r from-teal/40 to-transparent" />
             </div>
           </div>
         </div>
@@ -52,3 +53,4 @@ export function Footer() {
     </footer>
   )
 }
+

@@ -16,7 +16,7 @@ export default function AboutPage() {
         <div className="container-x">
           <RevealOnScroll>
             <div className="max-w-4xl">
-              <p className="text-eyebrow font-sans uppercase tracking-[0.3em] text-ember">
+              <p className="text-eyebrow font-sans uppercase tracking-[0.3em] text-teal">
                 ABOUT
               </p>
               <h1 className="mt-6 font-display text-h1 text-mist leading-[1.02] text-balance">
@@ -54,7 +54,7 @@ export default function AboutPage() {
                   key={idx}
                   className="text-body text-fog max-w-2xl leading-relaxed"
                 >
-                  <strong className="text-mist font-semibold mr-2">
+                  <strong className={`font-semibold mr-2 ${idx % 2 === 0 ? 'text-mist' : 'text-teal'}`}>
                     {item.lead}
                   </strong>
                   {item.body}

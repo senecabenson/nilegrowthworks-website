@@ -23,7 +23,7 @@ export default function ComparisonTable() {
                 <tr className="border-b border-mist/10 bg-navy">
                   <th
                     scope="col"
-                    className="px-5 py-5 text-eyebrow font-sans uppercase tracking-[0.25em] text-slate w-[22%]"
+                    className="px-5 py-5 text-eyebrow font-sans uppercase tracking-[0.25em] text-teal w-[22%]"
                   >
                     Compare
                   </th>

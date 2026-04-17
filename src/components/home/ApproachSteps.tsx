@@ -25,7 +25,10 @@ export function ApproachSteps() {
                 )}
               >
                 <div className="col-span-12 md:col-span-3">
-                  <p className="font-display italic text-6xl md:text-7xl text-ember leading-none">
+                  <p className={cn(
+                    'font-display italic text-6xl md:text-7xl leading-none',
+                    i === 1 ? 'text-teal' : 'text-ember'
+                  )}>
                     {step.number}
                   </p>
                 </div>
