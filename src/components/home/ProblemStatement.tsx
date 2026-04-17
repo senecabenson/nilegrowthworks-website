@@ -51,9 +51,6 @@ export function ProblemStatement() {
           <p className="font-display text-h1 italic text-mist leading-[1.1] text-balance">
             &ldquo;<HighlightedQuote text={siteContent.problem.quote} />&rdquo;
           </p>
-          <p className="mt-12 text-eyebrow uppercase tracking-[0.3em] text-slate">
-            &mdash; {siteContent.problem.attribution}
-          </p>
         </RevealOnScroll>
       </div>
     </section>
