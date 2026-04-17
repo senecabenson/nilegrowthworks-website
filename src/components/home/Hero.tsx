@@ -51,7 +51,7 @@ export function Hero() {
       <div className="container-x w-full grid grid-cols-12 gap-8 items-center py-12 md:py-24">
         {/* Left column — text */}
         <motion.div
-          className="col-span-12"
+          className="col-span-12 lg:col-span-7"
           initial="hidden"
           animate="visible"
           variants={containerVariants}
