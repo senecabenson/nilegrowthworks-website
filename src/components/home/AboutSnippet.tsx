@@ -8,8 +8,8 @@ export function AboutSnippet() {
   return (
     <section className="py-16 md:py-32 bg-ink">
       <div className="container-x">
-        <div className="grid grid-cols-12 gap-12">
-          <div className="col-span-12 lg:col-span-6">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16">
+          <div>
             <RevealOnScroll>
               <SectionHeading
                 eyebrow={siteContent.about.eyebrow}
@@ -25,7 +25,7 @@ export function AboutSnippet() {
               </div>
             </RevealOnScroll>
           </div>
-          <div className="col-span-12 lg:col-span-6">
+          <div>
             <RevealOnScroll delay={0.2}>
               <ul className="space-y-8">
                 {siteContent.about.values.map((value, i) => (

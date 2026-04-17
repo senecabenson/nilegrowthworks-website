@@ -6,6 +6,7 @@ import { ApproachSteps } from '@/components/home/ApproachSteps'
 import { VerticalProofStrip } from '@/components/home/VerticalProofStrip'
 import { RevenueCalculator } from '@/components/home/RevenueCalculator'
 import { AboutSnippet } from '@/components/home/AboutSnippet'
+import { RevenueOpsExplainer } from '@/components/home/RevenueOpsExplainer'
 import { FinalCTA } from '@/components/home/FinalCTA'
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <LeakVisualization />
       <ProblemStatement />
+      <RevenueOpsExplainer />
       <ServicesOverview />
       <ApproachSteps />
       <VerticalProofStrip />
