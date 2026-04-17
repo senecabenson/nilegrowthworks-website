@@ -32,7 +32,7 @@ export function BrandStory() {
               <div className="border-t border-mist/10 pt-8">
                 <h2 className="font-display text-h2 text-mist leading-tight">GrowthWorks.</h2>
                 <p className="mt-4 text-body text-fog leading-relaxed">
-                  One deliberate word. Growth that actually works — and the real work it takes to make growth happen. No shortcuts, no silver bullets. Just operational truth.
+                  One deliberate word. Growth that actually works, and the real work it takes to make growth happen. No shortcuts, no silver bullets. Just operational truth.
                 </p>
               </div>
             </div>

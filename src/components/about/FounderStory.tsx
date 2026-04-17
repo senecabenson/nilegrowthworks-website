@@ -17,7 +17,7 @@ export function FounderStory() {
                 &ldquo;{founderStory.pullQuote}&rdquo;
               </p>
               <div className="mt-8 flex items-center gap-3">
-                <span className="text-ember/50">—</span>
+                <span className="text-ember/50">·</span>
                 <p className="text-eyebrow font-sans uppercase tracking-wider text-slate">
                   {founderStory.pullQuoteAttribution}
                 </p>

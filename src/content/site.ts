@@ -46,7 +46,7 @@ export const siteContent = {
   },
 
   problem: {
-    quote: "We don't generate leads. We make sure every lead, customer, and dollar already in the door gets handled, followed up on, and retained — systematically.",
+    quote: "We don't generate leads. We make sure every lead, customer, and dollar already in the door gets handled, followed up on, and retained. Systematically.",
     attribution: 'NILE POSITIONING',
   },
 
@@ -56,11 +56,11 @@ export const siteContent = {
     tiers: [
       {
         name: 'Revenue Leak Diagnostic',
-        tier: 'TIER 1 — START HERE',
+        tier: 'TIER 1: START HERE',
         price: '$500–$750',
         blurb: '60–90 min diagnostic session plus a written report showing exactly where revenue leaks and what it costs. This is a deliverable, not a free sales call. Diagnostic fee credited toward setup if you move forward.',
         description: [
-          'A paid, structured audit of how revenue moves through your business — from first inquiry to repeat customer. We map every manual handoff, every dropped thread, and every place a dollar can walk out the door unnoticed.',
+          'A paid, structured audit of how revenue moves through your business, from first inquiry to repeat customer. We map every manual handoff, every dropped thread, and every place a dollar can walk out the door unnoticed.',
           "You leave with a written report, a prioritized fix list with cost estimates, and an ROI projection for each fix. If you choose to move forward on Tier 2, the diagnostic fee is credited toward setup. If you don't, you still own the playbook.",
         ],
         bullets: [
@@ -83,10 +83,10 @@ export const siteContent = {
         name: 'Full Engagement',
         tier: 'TIER 2',
         price: '$5,000 setup + $2,000/mo',
-        blurb: 'A fully configured ops stack built on NILE infrastructure — lead capture, follow-up automation, lifecycle mapping, team training, and ongoing monthly optimization plus reporting. Your team focuses on serving customers. The systems handle the rest.',
+        blurb: 'A fully configured ops stack built on NILE infrastructure: lead capture, follow-up automation, lifecycle mapping, team training, and ongoing monthly optimization plus reporting. Your team focuses on serving customers. The systems handle the rest.',
         description: [
           "The fix, built and handed back to you running. A fully configured ops stack built on NILE infrastructure, automations wired to your actual workflow, lifecycle maps drawn from your real customer journey, and your team trained on how to operate it.",
-          "Then we stay. Monthly retainer covers optimization, reporting, and evolution as your business changes. You don't get handed a tool and left to figure it out — that's how systems die. We keep it running.",
+          "Then we stay. Monthly retainer covers optimization, reporting, and evolution as your business changes. You don't get handed a tool and left to figure it out. That's how systems die. We keep it running.",
         ],
         bullets: [
           'Fully configured ops stack on NILE infrastructure',
@@ -111,7 +111,7 @@ export const siteContent = {
         price: 'Custom Pricing',
         blurb: 'Automation work built within your existing tech stack. For businesses that need specific workflows without full NILE infrastructure. Scoped and priced per project.',
         description: [
-          "For businesses that already run on tools they trust and don't want to migrate. We build inside your stack — HubSpot, Salesforce, Pipedrive, Monday, whatever you're on — and wire up the specific workflows you need.",
+          "For businesses that already run on tools they trust and don't want to migrate. We build inside your stack (HubSpot, Salesforce, Pipedrive, Monday, or whatever you're on) and wire up the specific workflows you need.",
           "Scoped and priced per project after a working session. You own the build, the documentation, and the handoff. No retainer required, though we're available for ongoing work if it makes sense.",
         ],
         bullets: [
@@ -171,7 +171,7 @@ export const siteContent = {
       {
         number: '01',
         title: 'Find the Leak',
-        body: "60–90 min diagnostic. Every manual handoff, every dropped thread, every dollar walking out the door — mapped, priced, prioritized.",
+        body: "60–90 min diagnostic. Every manual handoff, every dropped thread, every dollar walking out the door. Mapped, priced, and prioritized.",
       },
       {
         number: '02',
@@ -181,7 +181,7 @@ export const siteContent = {
       {
         number: '03',
         title: 'Keep It Running',
-        body: "Monthly retainer. Reporting. Optimization. Evolution. We don't hand you a tool and vanish — we stay.",
+        body: "Monthly retainer. Reporting. Optimization. Evolution. We don't hand you a tool and vanish. We stay.",
       },
     ],
   },
@@ -211,8 +211,8 @@ export const siteContent = {
     eyebrow: 'SEE YOUR NUMBERS',
     title: 'How much revenue is leaking?',
     titleAccent: 'leaking',
-    description: 'Adjust the sliders to match your business. No email required — the math speaks for itself.',
-    cta: 'Get the full picture — book a $500 diagnostic',
+    description: 'Adjust the sliders to match your business. No email required. The math speaks for itself.',
+    cta: 'Get the full picture. Book a $500 diagnostic',
     presets: {
       'Property Management':     { avgTicket: 2700, missedPerWeek: 3, followUpHours: 48, repeatRate: 0.40 },
       'HVAC & Plumbing':         { avgTicket: 700,  missedPerWeek: 4, followUpHours: 24, repeatRate: 0.55 },
@@ -224,9 +224,9 @@ export const siteContent = {
   about: {
     eyebrow: 'WHO WE ARE',
     title: 'Operators, not influencers.',
-    story: "Next In Line Enterprises. San Diego. We've seen what actually breaks inside service businesses — because we've worked inside them.",
+    story: "Next In Line Enterprises. San Diego. We've seen what actually breaks inside service businesses, because we've worked inside them.",
     founderQuote: 'Everyone willing to put in the work is next in line to break through. It is a matter of when, not if.',
-    elevatorPitch: "NILE GrowthWorks helps service businesses doing $500K–$5M in revenue but losing money to manual processes and broken follow-up. We find where revenue is leaking, then build the automated systems — CRM, workflows, lifecycle management — that handle 80–90% of operational work. Your team focuses on serving customers. The systems handle the rest.",
+    elevatorPitch: "NILE GrowthWorks helps service businesses doing $500K–$5M in revenue but losing money to manual processes and broken follow-up. We find where revenue is leaking, then build the automated systems (CRM, workflows, lifecycle management) that handle 80–90% of operational work. Your team focuses on serving customers. The systems handle the rest.",
     values: [
       { name: 'Humility Over Ego', description: 'Students first. Lead with questions, not answers.' },
       { name: 'Purpose Over Presence', description: 'Show up with intention, not just attendance.' },
@@ -240,27 +240,27 @@ export const siteContent = {
       paragraphs: [
         'I\'ll be honest, I don\'t have all the answers. But I\'ve learned that the best solutions come from bringing the right people together and actually listening to what they have to say.',
         'Ten years, two different worlds. Seven years on the phone at Stericycle, listening to customers explain what wasn\'t working. Three more inside ChemPoint\'s PMO, working with teams to figure out how to fix it. The real progress, I learned, happens when someone can translate between those worlds.',
-        'Then I co-founded The Capture Corner. Wearing the revenue-ops hat meant building the system myself — a lead qualification and booking flow that took our close rate from about 5% to 20% and scaled us from $5K to $100K ARR without adding headcount. That\'s when it clicked: most service businesses aren\'t losing because the idea is wrong. They\'re losing because there\'s no system underneath the idea.',
-        'NILE GrowthWorks is that system, built for operators like the ones I worked for — service businesses doing $500K–$5M who know something is leaking but don\'t have the time or the stack to stop it. We don\'t generate leads. We make sure every lead, customer, and dollar already in the door gets handled, followed up on, and retained. Systematically.',
+        'Then I co-founded The Capture Corner. Wearing the revenue-ops hat meant building the system myself: a lead qualification and booking flow that took our close rate from about 5% to 20% and scaled us from $5K to $100K ARR without adding headcount. That\'s when it clicked: most service businesses aren\'t losing because the idea is wrong. They\'re losing because there\'s no system underneath the idea.',
+        'NILE GrowthWorks is that system, built for operators like the ones I worked for: service businesses doing $500K–$5M who know something is leaking but don\'t have the time or the stack to stop it. We don\'t generate leads. We make sure every lead, customer, and dollar already in the door gets handled, followed up on, and retained. Systematically.',
       ],
     },
     proof: {
       eyebrow: 'WHAT I\'VE BUILT BEFORE',
       title: 'Not theory. Numbers from real operating environments.',
       stats: [
-        { value: '5% → 20%', label: 'Close rate', context: 'The Capture Corner — automated lead qualification + booking flow, same team size.' },
+        { value: '5% → 20%', label: 'Close rate', context: 'The Capture Corner: automated lead qualification and booking flow, same team size.' },
         { value: '$5K → $100K', label: 'ARR scaled', context: 'Lean team at The Capture Corner, entirely on automated revenue-ops systems I designed, shipped, and iterated in production.' },
         { value: '+28% / -94%', label: 'Efficiency / duplicates', context: 'Multi-department Dynamics 365 optimization program at ChemPoint.' },
-        { value: '$95M', label: 'Revenue program supported', context: 'Great Plains ERP implementation — accurate financial reporting across the revenue cycle.' },
+        { value: '$95M', label: 'Revenue program supported', context: 'Great Plains ERP implementation, accurate financial reporting across the revenue cycle.' },
       ],
     },
     partnership: {
       eyebrow: 'HOW WE WORK WITH CLIENTS',
       title: 'Four principles, not a pitch deck.',
       paragraphs: [
-        { lead: 'Grounded, not arrogant.', body: 'We know our craft, but we never talk down to anyone. The tone is "I\'ve seen this problem before, and here\'s what\'s worked" — never "let me tell you what you\'re doing wrong."' },
-        { lead: 'Real, not polished.', body: 'We don\'t hide behind jargon. If something is broken, we say it\'s broken. If something is working, we celebrate it. You should read our materials and think "this is a real person" — not "this was written by a committee."' },
-        { lead: 'Direct, not cold.', body: 'We get to the point. We don\'t waste your time. But direct doesn\'t mean harsh — it means we respect you enough to be clear.' },
+        { lead: 'Grounded, not arrogant.', body: 'We know our craft, but we never talk down to anyone. The tone is "I\'ve seen this problem before, and here\'s what\'s worked." Not "let me tell you what you\'re doing wrong."' },
+        { lead: 'Real, not polished.', body: 'We don\'t hide behind jargon. If something is broken, we say it\'s broken. If something is working, we celebrate it. You should read our materials and think "this is a real person," not "this was written by a committee."' },
+        { lead: 'Direct, not cold.', body: 'We get to the point. We don\'t waste your time. But direct doesn\'t mean harsh. It means we respect you enough to be clear.' },
         { lead: 'Warm, not soft.', body: 'We care about the people we work with. We use humor where it fits. But warmth doesn\'t mean we avoid hard truths. It means we deliver them like someone who actually gives a damn about your outcome.' },
       ],
     },
