@@ -33,7 +33,7 @@ export function Nav() {
           {/* Left: wordmark */}
           <Link href="/" className="flex-shrink-0 flex items-center gap-3">
             <Image
-              src="/logos/nile-wordmark-white.png"
+              src="/logos/nile-logo-white.svg"
               alt="NILE GrowthWorks"
               width={140}
               height={28}

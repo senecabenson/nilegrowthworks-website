@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   keywords: ['revenue operations', 'automation', 'service business', 'San Diego', 'RevOps', 'CRM', 'lead follow-up'],
   icons: {
     icon: [
-      { url: '/logos/nile-wordmark-charcoal.png', type: 'image/png' },
+      { url: '/logos/nile-logo-charcoal.svg', type: 'image/svg+xml' },
       { url: '/favicon.svg', type: 'image/svg+xml' },
       { url: '/favicon.ico' },
     ],

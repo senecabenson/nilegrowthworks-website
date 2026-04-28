@@ -1,9 +1,9 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import Image from 'next/image'
 import BlueprintGrid from '@/components/ui/BlueprintGrid'
 import MagneticButton from '@/components/ui/MagneticButton'
+import { AnimatedLogo } from '@/components/ui/AnimatedLogo'
 import { siteContent } from '@/content/site'
 
 // ─── Animation variants ──────────────────────────────────────────────────────
@@ -51,7 +51,7 @@ export function Hero() {
       <div className="container-x w-full grid grid-cols-12 gap-8 items-center py-12 md:py-24">
         {/* Left column — text */}
         <motion.div
-          className="col-span-12 lg:col-span-7"
+          className="col-span-12 lg:col-span-5"
           initial="hidden"
           animate="visible"
           variants={containerVariants}
@@ -117,12 +117,12 @@ export function Hero() {
         </motion.div>
 
         {/* Right column — animated logo */}
-        <div className="hidden lg:flex col-span-12 lg:col-span-5 justify-center lg:justify-end">
+        <div className="hidden lg:flex col-span-12 lg:col-span-7 justify-center lg:justify-end">
           <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1.4, ease: [0.16, 1, 0.3, 1], delay: 0.3 }}
-            className="relative w-full max-w-[480px] ml-auto flex items-center justify-center"
+            className="relative w-full flex items-center justify-center"
             aria-hidden="true"
           >
             {/* Ember glow behind logo */}
@@ -165,14 +165,11 @@ export function Hero() {
                 repeat: Infinity,
                 ease: 'easeInOut',
               }}
-              className="relative z-10"
+              className="relative z-10 w-full"
             >
-              <Image
-                src="/logos/nile-wordmark-white.png"
-                alt=""
-                width={420}
-                height={420}
-                priority
+              <AnimatedLogo
+                variant="white"
+                ariaLabel="NILE GrowthWorks animated logo"
                 className="w-full h-auto drop-shadow-[0_0_40px_rgba(214,181,58,0.15)]"
               />
             </motion.div>
