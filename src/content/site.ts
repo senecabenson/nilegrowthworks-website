@@ -268,7 +268,7 @@ export const siteContent = {
 
   clientAdminAutopilot: {
     hero: {
-      eyebrow: 'FOR SMALL SERVICE BUSINESSES',
+      eyebrow: 'FOR SERVICE BUSINESSES LOSING MONEY TO THE GAPS',
       title: 'Client Admin Autopilot',
       titleAccent: 'Autopilot',
       subhead: 'Stop running your whole client pipeline out of your head.',
@@ -277,7 +277,7 @@ export const siteContent = {
     forYou: {
       eyebrow: 'WHO THIS IS FOR',
       title: 'This is for you.',
-      body: "You run a small service business on your own. Trainer, doula, groomer, cleaner, tutor. Booking, signatures, late-payment nudges, it all lives in your head. Client Admin Autopilot runs your intake, paperwork, and payment follow-up for you, live in about two weeks, so nothing slips while you do the real work.",
+      body: "You run a service business, and things slip. A no-show nobody followed up on. A waiver that never got signed. An invoice you forgot to chase. Client Admin Autopilot closes those gaps for you, live in about two weeks, so the money already in your pipeline stops leaking out.",
     },
     whatItDoes: {
       eyebrow: 'WHAT IT DOES',
