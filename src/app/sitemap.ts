@@ -7,5 +7,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/`, lastModified: now, priority: 1.0 },
     { url: `${base}/services`, lastModified: now, priority: 0.8 },
     { url: `${base}/about`, lastModified: now, priority: 0.6 },
+    { url: `${base}/client-admin-autopilot`, lastModified: now, priority: 0.7 },
   ]
 }

@@ -26,7 +26,7 @@ export default function ServicesPage() {
               <p className="mt-8 text-body text-fog max-w-2xl leading-relaxed">
                 Start with a paid diagnostic. Move to a full engagement if the
                 numbers warrant it. Or scope a custom build inside the stack
-                you already run. You pick the door; the outcome is the same.
+                you already run. You pick the door. The outcome is the same.
               </p>
             </div>
           </RevealOnScroll>

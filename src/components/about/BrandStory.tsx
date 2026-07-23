@@ -22,10 +22,10 @@ export function BrandStory() {
                 <p className="text-eyebrow font-sans uppercase tracking-[0.3em] text-teal">THE NAME</p>
                 <h2 className="mt-4 font-display text-h2 text-mist leading-tight">Next In Line.</h2>
                 <p className="mt-4 text-body text-fog leading-relaxed">
-                  NILE stands for Next In Line Enterprises. The name comes from a deeply personal belief: anyone who dedicates themselves, puts their mind to it, and pursues something of greatness is next in line to break through. It&rsquo;s not a question of if — it&rsquo;s a question of when.
+                  NILE stands for Next In Line Enterprises. The name comes from a deeply personal belief: anyone who dedicates themselves, puts their mind to it, and pursues something of greatness is next in line to break through. It&rsquo;s not a question of if. It&rsquo;s a question of when.
                 </p>
                 <p className="mt-4 text-body text-fog leading-relaxed">
-                  The Nile River is the longest river in the world. It sustained entire civilizations — not because it was loud or flashy, but because it showed up, consistently, with life-giving purpose. That&rsquo;s the energy behind this brand. NILE GrowthWorks shows up for the business owner who&rsquo;s next.
+                  The Nile River is the longest river in the world. It sustained entire civilizations, not because it was loud or flashy, but because it showed up, consistently, with life-giving purpose. That&rsquo;s the energy behind this brand. NILE GrowthWorks shows up for the business owner who&rsquo;s next.
                 </p>
               </div>
 

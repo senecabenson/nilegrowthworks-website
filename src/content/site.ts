@@ -5,7 +5,7 @@ export const siteContent = {
       { label: 'Services', href: '/services' },
       { label: 'About', href: '/about' },
     ],
-    cta: { label: 'Start a Diagnostic →', href: '/#diagnostic' },
+    cta: { label: 'Start a Diagnostic', href: '/#diagnostic' },
   },
 
   hero: {
@@ -13,7 +13,7 @@ export const siteContent = {
     title: 'Build it',
     titleAccent: 'so it runs.',
     subhead: 'We find where your revenue is leaking. Then we build the systems that stop it.',
-    primaryCta: { label: 'Start the $500 Diagnostic →', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
+    primaryCta: { label: 'Start the $500 Diagnostic', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
     secondaryCta: { label: 'See how we work', href: '/services' },
     credibility: 'For service businesses doing $500K–$5M · Property Management · HVAC · Med Spa',
   },
@@ -77,7 +77,7 @@ export const siteContent = {
           'Service businesses doing $500K–$5M that suspect revenue is leaking but need numbers before they commit to fixing it.',
         notFor:
           "Teams under $500K, pre-revenue startups, or anyone looking for a free consultation. This is a paid deliverable.",
-        cta: { label: 'Book a Diagnostic →', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
+        cta: { label: 'Book a Diagnostic', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
       },
       {
         name: 'Full Engagement',
@@ -103,7 +103,7 @@ export const siteContent = {
           'Operators who ran the diagnostic, saw the number, and want the systems built, trained, and maintained without hiring a full ops team.',
         notFor:
           "Businesses committed to keeping everything inside their existing stack, or teams unwilling to migrate a CRM. See Tier 3.",
-        cta: { label: 'See Full Engagement →', href: 'mailto:senecacbenson@gmail.com?subject=Full Engagement Inquiry' },
+        cta: { label: 'See Full Engagement', href: 'mailto:senecacbenson@gmail.com?subject=Full Engagement Inquiry' },
       },
       {
         name: 'Custom Build',
@@ -126,7 +126,7 @@ export const siteContent = {
           "Established operators with a CRM they're keeping, who need specific automations built right rather than a full platform swap.",
         notFor:
           'Teams without an existing CRM, or anyone looking for ongoing managed operations. Tier 2 is the better fit.',
-        cta: { label: 'Scope a Custom Build →', href: 'mailto:senecacbenson@gmail.com?subject=Custom Build Inquiry' },
+        cta: { label: 'Scope a Custom Build', href: 'mailto:senecacbenson@gmail.com?subject=Custom Build Inquiry' },
       },
     ],
     comparison: {
@@ -239,7 +239,7 @@ export const siteContent = {
       pullQuoteAttribution: 'Seneca Benson · Founder, NILE GrowthWorks',
       paragraphs: [
         'I\'ll be honest, I don\'t have all the answers. But I\'ve learned that the best solutions come from bringing the right people together and actually listening to what they have to say.',
-        'Ten years, two different worlds. Seven years on the phone at Stericycle, listening to customers explain what wasn\'t working. Three more inside ChemPoint\'s PMO, working with teams to figure out how to fix it. The real progress, I learned, happens when someone can translate between those worlds.',
+        'Ten years, two different worlds. Seven years on the phone in customer service, listening to customers explain what wasn\'t working. Three more inside a corporate program-management office, working with teams to figure out how to fix it. The real progress, I learned, happens when someone can translate between those worlds.',
         'Then I co-founded The Capture Corner. Wearing the revenue-ops hat meant building the system myself: a lead qualification and booking flow that took our close rate from about 5% to 20% and scaled us from $5K to $100K ARR without adding headcount. That\'s when it clicked: most service businesses aren\'t losing because the idea is wrong. They\'re losing because there\'s no system underneath the idea.',
         'NILE GrowthWorks is that system, built for operators like the ones I worked for: service businesses doing $500K–$5M who know something is leaking but don\'t have the time or the stack to stop it. We don\'t generate leads. We make sure every lead, customer, and dollar already in the door gets handled, followed up on, and retained. Systematically.',
       ],
@@ -250,8 +250,8 @@ export const siteContent = {
       stats: [
         { value: '5% → 20%', label: 'Close rate', context: 'The Capture Corner: automated lead qualification and booking flow, same team size.' },
         { value: '$5K → $100K', label: 'ARR scaled', context: 'Lean team at The Capture Corner, entirely on automated revenue-ops systems I designed, shipped, and iterated in production.' },
-        { value: '+28% / -94%', label: 'Efficiency / duplicates', context: 'Multi-department Dynamics 365 optimization program at ChemPoint.' },
-        { value: '$95M', label: 'Revenue program supported', context: 'Great Plains ERP implementation, accurate financial reporting across the revenue cycle.' },
+        { value: '+28% / -94%', label: 'Efficiency / duplicates', context: 'Multi-department Dynamics 365 optimization program in a prior enterprise role.' },
+        { value: '$95M', label: 'Revenue program supported', context: 'Great Plains ERP implementation in a prior enterprise role, supporting accurate financial reporting across the revenue cycle.' },
       ],
     },
     partnership: {
@@ -266,11 +266,86 @@ export const siteContent = {
     },
   },
 
+  clientAdminAutopilot: {
+    hero: {
+      eyebrow: 'FOR SMALL SERVICE BUSINESSES',
+      title: 'Client Admin Autopilot',
+      titleAccent: 'Autopilot',
+      subhead: 'Stop running your whole client pipeline out of your head.',
+      promise: 'From new inquiry to signed waiver to paid invoice, without you chasing anyone. Running in about two weeks.',
+    },
+    forYou: {
+      eyebrow: 'WHO THIS IS FOR',
+      title: 'This is for you.',
+      body: "You run a small service business on your own. Trainer, doula, groomer, cleaner, tutor. Booking, signatures, late-payment nudges, it all lives in your head. Client Admin Autopilot runs your intake, paperwork, and payment follow-up for you, live in about two weeks, so nothing slips while you do the real work.",
+    },
+    whatItDoes: {
+      eyebrow: 'WHAT IT DOES',
+      title: 'Five automations.',
+      steps: [
+        {
+          number: '01',
+          title: 'New client intake',
+          body: 'They fill your form and get a branded confirmation on the spot. Their info lands in your pipeline sheet. You type nothing.',
+        },
+        {
+          number: '02',
+          title: 'Payment reminders',
+          body: 'Every morning it checks who owes and sends the nudge for you. No more awkward chasing.',
+        },
+        {
+          number: '03',
+          title: 'Signed paperwork tracking',
+          body: "Client signs the waiver, your sheet updates, you get a heads-up. You always know who's signed.",
+        },
+        {
+          number: '04',
+          title: 'Payment logging',
+          body: 'A Venmo payment comes in, it gets matched to the client and logged. The money trail keeps itself.',
+        },
+        {
+          number: '05',
+          title: 'End-of-day rollup',
+          body: 'One email at 6pm: who came in, who signed, who paid. Close the laptop knowing nothing slipped.',
+        },
+      ],
+    },
+    included: {
+      eyebrow: "WHAT'S INCLUDED",
+      title: "What's included.",
+      items: [
+        'A 1-1 mapping session to walk your current flow: intake, paperwork, payments.',
+        'The 5-automation system, built for you and wired to your forms, email, and a clean pipeline sheet.',
+        'A live test run with you watching before anything touches a real client.',
+        'A plain-language cheat sheet so you own it after I leave.',
+      ],
+    },
+    receipt: {
+      eyebrow: 'THE RECEIPT',
+      quote: "I built this for a San Diego birth educator running her whole client pipeline by hand. It's in pilot with her now. Everything lands in a spreadsheet you already know how to read.",
+      attribution: 'IN PILOT NOW',
+    },
+    howItWorks: {
+      eyebrow: 'HOW IT WORKS',
+      title: 'How it works.',
+      body: "One 20-minute call. You talk, I map. If it's a fit, I build. If it's not, you leave with a clear picture of your own flow. More than fair.",
+    },
+    price: {
+      eyebrow: 'PRICE',
+      label: 'Founding rate · first 3',
+      amount: '$1,500 flat',
+      optional: 'Optional $49/mo and I keep it running. Pay in full, or split it into two.',
+      note: 'Most owners make it back in a month or two of recovered bookings and paid invoices.',
+      cta: { label: 'Get Client Admin Autopilot', href: 'mailto:senecacbenson@gmail.com?subject=Client Admin Autopilot' },
+    },
+    tagline: 'Build it so it runs.',
+  },
+
   finalCta: {
     eyebrow: 'READY?',
     title: "Let's find where your revenue is leaking.",
     body: '$500 diagnostic. 60–90 minutes. A written report. Credited toward setup if you move forward.',
-    cta: { label: 'Book a Diagnostic →', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
+    cta: { label: 'Book a Diagnostic', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
   },
 
   footer: {
