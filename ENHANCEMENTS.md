@@ -21,7 +21,7 @@ Backlog of fixes and improvements for the NILE GrowthWorks marketing site (Next.
 
 ## P1 — Broken / wrong (do next)
 
-- **IN PROGRESS — No real conversion path.** Every CTA is a raw `mailto:senecacbenson@gmail.com` (`src/content/site.ts` several, `src/components/layout/Footer.tsx`, `src/components/home/RevenueCalculator.tsx`). No scheduler, form, or CRM capture. A RevOps firm whose own site can't capture a lead is an on-brand credibility risk. Fix: add a booking link (Cal.com / GHL calendar) or a lead form, and use a branded `@nilegrowthworks.com` address. **Step 1 scheduled 7/23** — create `seneca@nilegrowthworks.com` + Porkbun forwarding (ClickUp `86e2fbapg`), then swap all `mailto:` off personal Gmail.
+- **IN PROGRESS — No real conversion path.** Every CTA is a raw `mailto:` with no scheduler, form, or CRM capture. A RevOps firm whose own site can't capture a lead is an on-brand credibility risk. Fix: add a booking link (Cal.com / GHL calendar) or a lead form. **Step 1 DONE 2026-07-23** — branded email live; all `mailto:` + footer swapped off personal Gmail to `hello@nilegrowthworks.com` (13 hits across site, offer, brand surfaces). Remaining: booking link / lead form (item stays open).
 
 ---
 

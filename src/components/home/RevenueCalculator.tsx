@@ -166,7 +166,7 @@ export function RevenueCalculator() {
   const totalAnnual = totalMonthly * 12
 
   // Dynamic mailto body
-  const mailtoHref = `mailto:senecacbenson@gmail.com?subject=${encodeURIComponent(
+  const mailtoHref = `mailto:hello@nilegrowthworks.com?subject=${encodeURIComponent(
     'Revenue Leak Diagnostic'
   )}&body=${encodeURIComponent(
     `Calculator showed ${formatCurrency(totalMonthly)}/mo in leakage.`

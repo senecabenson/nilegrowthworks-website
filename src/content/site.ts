@@ -13,7 +13,7 @@ export const siteContent = {
     title: 'Build it',
     titleAccent: 'so it runs.',
     subhead: 'We find where your revenue is leaking. Then we build the systems that stop it.',
-    primaryCta: { label: 'Start the $500 Diagnostic', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
+    primaryCta: { label: 'Start the $500 Diagnostic', href: 'mailto:hello@nilegrowthworks.com?subject=Revenue Leak Diagnostic' },
     secondaryCta: { label: 'See how we work', href: '/services' },
     credibility: 'For service businesses doing $500K–$5M · Property Management · HVAC · Med Spa',
   },
@@ -77,7 +77,7 @@ export const siteContent = {
           'Service businesses doing $500K–$5M that suspect revenue is leaking but need numbers before they commit to fixing it.',
         notFor:
           "Teams under $500K, pre-revenue startups, or anyone looking for a free consultation. This is a paid deliverable.",
-        cta: { label: 'Book a Diagnostic', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
+        cta: { label: 'Book a Diagnostic', href: 'mailto:hello@nilegrowthworks.com?subject=Revenue Leak Diagnostic' },
       },
       {
         name: 'Full Engagement',
@@ -103,7 +103,7 @@ export const siteContent = {
           'Operators who ran the diagnostic, saw the number, and want the systems built, trained, and maintained without hiring a full ops team.',
         notFor:
           "Businesses committed to keeping everything inside their existing stack, or teams unwilling to migrate a CRM. See Tier 3.",
-        cta: { label: 'See Full Engagement', href: 'mailto:senecacbenson@gmail.com?subject=Full Engagement Inquiry' },
+        cta: { label: 'See Full Engagement', href: 'mailto:hello@nilegrowthworks.com?subject=Full Engagement Inquiry' },
       },
       {
         name: 'Custom Build',
@@ -126,7 +126,7 @@ export const siteContent = {
           "Established operators with a CRM they're keeping, who need specific automations built right rather than a full platform swap.",
         notFor:
           'Teams without an existing CRM, or anyone looking for ongoing managed operations. Tier 2 is the better fit.',
-        cta: { label: 'Scope a Custom Build', href: 'mailto:senecacbenson@gmail.com?subject=Custom Build Inquiry' },
+        cta: { label: 'Scope a Custom Build', href: 'mailto:hello@nilegrowthworks.com?subject=Custom Build Inquiry' },
       },
     ],
     comparison: {
@@ -336,7 +336,7 @@ export const siteContent = {
       amount: '$1,500 flat',
       optional: 'Optional $49/mo and I keep it running. Pay in full, or split it into two.',
       note: 'Most owners make it back in a month or two of recovered bookings and paid invoices.',
-      cta: { label: 'Get Client Admin Autopilot', href: 'mailto:senecacbenson@gmail.com?subject=Client Admin Autopilot' },
+      cta: { label: 'Get Client Admin Autopilot', href: 'mailto:hello@nilegrowthworks.com?subject=Client Admin Autopilot' },
     },
     tagline: 'Build it so it runs.',
   },
@@ -345,12 +345,12 @@ export const siteContent = {
     eyebrow: 'READY?',
     title: "Let's find where your revenue is leaking.",
     body: '$500 diagnostic. 60–90 minutes. A written report. Credited toward setup if you move forward.',
-    cta: { label: 'Book a Diagnostic', href: 'mailto:senecacbenson@gmail.com?subject=Revenue Leak Diagnostic' },
+    cta: { label: 'Book a Diagnostic', href: 'mailto:hello@nilegrowthworks.com?subject=Revenue Leak Diagnostic' },
   },
 
   footer: {
     tagline: 'Build it so it runs.',
-    email: 'senecacbenson@gmail.com',
+    email: 'hello@nilegrowthworks.com',
     location: 'San Diego, CA',
     copyright: `© ${new Date().getFullYear()} NILE GrowthWorks. All rights reserved.`,
   },
