@@ -1,4 +1,18 @@
 export const siteContent = {
+  organization: {
+    name: 'NILE GrowthWorks',
+    legalName: 'Next In Line Enterprises',
+    founder: 'Seneca Benson',
+    email: 'hello@nilegrowthworks.com',
+    addressLocality: 'San Diego',
+    addressRegion: 'CA',
+    areaServed: ['San Diego County', 'California'],
+    sameAs: [] as string[],
+    telephone: '',
+    description:
+      'NILE GrowthWorks is a revenue operations and automation firm in San Diego. We find where revenue leaks through missed calls, slow follow-up, and absent automation, then build the systems that stop it, for service businesses doing $500K to $5M a year.',
+  },
+
   nav: {
     links: [
       { label: 'Home', href: '/' },
@@ -129,6 +143,29 @@ export const siteContent = {
         cta: { label: 'Scope a Custom Build', href: 'mailto:hello@nilegrowthworks.com?subject=Custom Build Inquiry' },
       },
     ],
+    faq: [
+      {
+        question: 'What is a Revenue Leak Diagnostic?',
+        answer:
+          "It's a paid audit of how revenue moves through your business, from first inquiry to repeat customer. You get a 60 to 90 minute session and a written report mapping every manual handoff, every dropped thread, and where money leaks out. It's a deliverable, not a free sales call.",
+      },
+      {
+        question: 'How long does it take?',
+        answer:
+          'The diagnostic itself runs 60 to 90 minutes, live. Your written report follows in about a week. If you move into Full Engagement after that, the build takes 4 to 6 weeks to launch and go live.',
+      },
+      {
+        question: 'How much does it cost?',
+        answer:
+          'The diagnostic starts at $500. Full Engagement runs $5,000 setup plus $2,000 a month. Custom Build is scoped and priced per project after a working session. If you move forward on Tier 2, the diagnostic fee gets credited toward setup.',
+      },
+      {
+        question: 'Who is this for?',
+        answer:
+          'Service businesses doing $500K to $5M a year who suspect revenue is leaking but need the numbers before they commit to fixing it. Property management, HVAC and plumbing, and med spa are our core verticals, but the diagnostic works for any lead-and-follow-up business.',
+      },
+    ],
+
     comparison: {
       rows: [
         {

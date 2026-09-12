@@ -1,6 +1,7 @@
 import RevealOnScroll from '@/components/ui/RevealOnScroll'
 import TierCard from '@/components/services/TierCard'
 import ComparisonTable from '@/components/services/ComparisonTable'
+import FaqBlock from '@/components/services/FaqBlock'
 import { FinalCTA } from '@/components/home/FinalCTA'
 import { siteContent } from '@/content/site'
 
@@ -51,6 +52,9 @@ export default function ServicesPage() {
 
       {/* Comparison table */}
       <ComparisonTable />
+
+      {/* FAQ */}
+      <FaqBlock />
 
       {/* Final CTA — reused from home */}
       <FinalCTA />

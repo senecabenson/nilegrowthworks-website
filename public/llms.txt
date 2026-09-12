@@ -1,0 +1,15 @@
+# NILE GrowthWorks
+
+> NILE GrowthWorks is a revenue operations and automation firm in San Diego. We find where revenue leaks through missed calls, slow follow-up, and absent automation, then build the systems that stop it, for service businesses doing $500K to $5M a year. Core verticals: property management, HVAC and plumbing, and med spa and aesthetics.
+
+## Pages
+
+- [Home](https://nilegrowthworks.com/): The revenue leak framework, a live revenue calculator, and the three-tier service model.
+- [Services](https://nilegrowthworks.com/services): Three ways to work with NILE: the $500 Revenue Leak Diagnostic, the Full Engagement build-and-run, and Custom Build inside your existing stack. Includes an FAQ.
+- [About](https://nilegrowthworks.com/about): Who NILE GrowthWorks is, founder Seneca Benson's background, and the operating values behind the work.
+- [Client Admin Autopilot](https://nilegrowthworks.com/client-admin-autopilot): A 5-automation productized offer for service businesses losing money to admin gaps: intake, payment reminders, waiver tracking, payment logging, and an end-of-day rollup.
+
+## Contact
+
+- Email: hello@nilegrowthworks.com
+- Location: San Diego, CA

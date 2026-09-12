@@ -9,6 +9,7 @@ import { run as runNavigation } from './scenarios/navigation'
 import { run as runServices } from './scenarios/services'
 import { run as runAbout } from './scenarios/about'
 import { run as runResponsive } from './scenarios/responsive'
+import { run as runSeo } from './scenarios/seo'
 
 const BASE_URL = 'http://localhost:3000'
 const HAS_AI = !!process.env.ANTHROPIC_API_KEY
@@ -122,6 +123,7 @@ async function main() {
     { name: 'services', fn: runServices },
     { name: 'about', fn: runAbout },
     { name: 'responsive', fn: runResponsive },
+    { name: 'seo', fn: runSeo },
   ]
 
   const results: Array<{ name: string; failures: string[]; passed: boolean }> = []

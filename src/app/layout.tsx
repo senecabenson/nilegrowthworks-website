@@ -3,6 +3,8 @@ import { Plus_Jakarta_Sans, Fraunces } from 'next/font/google'
 import './globals.css'
 import GrainOverlay from '@/components/ui/GrainOverlay'
 import { PageShell } from '@/components/layout/PageShell'
+import { JsonLd } from '@/components/seo/JsonLd'
+import { buildOrganizationSchema, buildWebsiteSchema } from '@/lib/schema'
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
@@ -21,12 +23,18 @@ export const metadata: Metadata = {
   title: 'NILE GrowthWorks | Revenue Operations & Automation for Service Businesses',
   description: 'We find where your revenue is leaking. Then we build the systems that stop it. Revenue operations and automation for service businesses doing $500K–$5M.',
   keywords: ['revenue operations', 'automation', 'service business', 'San Diego', 'RevOps', 'CRM', 'lead follow-up'],
+  alternates: {
+    canonical: '/',
+  },
+  manifest: '/manifest.webmanifest',
+  ...(process.env.NEXT_PUBLIC_GSC_TOKEN && {
+    verification: { google: process.env.NEXT_PUBLIC_GSC_TOKEN },
+  }),
   icons: {
     icon: [
       { url: '/logos/nile-logo-charcoal.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: light)' },
       { url: '/logos/nile-logo-white.svg', type: 'image/svg+xml', media: '(prefers-color-scheme: dark)' },
       { url: '/favicon.svg', type: 'image/svg+xml' },
-      { url: '/favicon.ico' },
     ],
   },
   openGraph: {
@@ -56,6 +64,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${jakarta.variable} ${fraunces.variable}`}>
       <body className="bg-ink text-mist font-sans antialiased selection:bg-ember selection:text-ink">
+        <JsonLd data={buildOrganizationSchema()} />
+        <JsonLd data={buildWebsiteSchema()} />
         <GrainOverlay />
         <PageShell>{children}</PageShell>
       </body>
