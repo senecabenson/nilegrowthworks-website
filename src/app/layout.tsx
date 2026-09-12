@@ -43,20 +43,11 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://nilegrowthworks.com',
     siteName: 'NILE GrowthWorks',
-    images: [
-      {
-        url: '/logos/nile-wordmark-charcoal.png',
-        width: 1200,
-        height: 300,
-        alt: 'NILE GrowthWorks',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'NILE GrowthWorks | Revenue Operations & Automation',
     description: 'Revenue operations and automation for San Diego service businesses doing $500K–$5M.',
-    images: ['/logos/nile-wordmark-charcoal.png'],
   },
 }
 

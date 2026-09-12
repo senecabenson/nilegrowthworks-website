@@ -14,14 +14,6 @@ export const metadata: Metadata = {
     type: 'website',
     url: 'https://nilegrowthworks.com/client-admin-autopilot',
     siteName: 'NILE GrowthWorks',
-    images: [
-      {
-        url: '/logos/nile-wordmark-charcoal.png',
-        width: 1200,
-        height: 300,
-        alt: 'NILE GrowthWorks',
-      },
-    ],
   },
 }
 
