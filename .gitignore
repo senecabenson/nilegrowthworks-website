@@ -38,3 +38,6 @@ next-env.d.ts
 # e2e test artifacts
 tests/e2e/screenshots/
 test-results/
+
+# uat screenshots (ephemeral evidence, not artifacts)
+uat/.screenshots/
