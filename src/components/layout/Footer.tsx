@@ -1,12 +1,13 @@
 import Link from 'next/link'
 import { Mail } from 'lucide-react'
 import { siteContent } from '@/content/site'
+import { servicePages } from '@/content/services-data'
 
 export function Footer() {
   return (
     <footer className="border-t border-mist/10 bg-ink">
       <div className="container-x pt-16 md:pt-32 pb-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-16">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 md:gap-16">
           {/* Column 1: tagline + copyright */}
           <div>
             <p className="font-display text-h2 italic text-ember leading-tight">
@@ -47,6 +48,20 @@ export function Footer() {
               </a>
               <div className="mt-6 h-px w-12 bg-gradient-to-r from-teal/40 to-transparent" />
             </div>
+          </div>
+
+          {/* Column 4: diagnostic by vertical */}
+          <div className="flex flex-col gap-4">
+            <p className="text-xs uppercase tracking-[0.15em] text-slate">Diagnostic by industry</p>
+            {servicePages.map((page) => (
+              <Link
+                key={page.slug}
+                href={`/services/${page.slug}`}
+                className="text-sm text-fog hover:text-mist transition-colors w-fit"
+              >
+                {page.vertical}
+              </Link>
+            ))}
           </div>
         </div>
       </div>
