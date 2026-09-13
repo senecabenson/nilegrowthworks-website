@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next'
 import { servicePages } from '@/content/services-data'
+import { blogPosts } from '@/content/blog-data'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = 'https://nilegrowthworks.com'
@@ -13,6 +14,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${base}/services/${page.slug}`,
       lastModified: now,
       priority: 0.8,
+    })),
+    { url: `${base}/blog`, lastModified: now, priority: 0.6 },
+    ...blogPosts.map((post) => ({
+      url: `${base}/blog/${post.slug}`,
+      lastModified: new Date(post.updatedAt),
+      priority: 0.6,
     })),
   ]
 }

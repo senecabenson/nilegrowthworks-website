@@ -62,6 +62,12 @@ export function Footer() {
                 {page.vertical}
               </Link>
             ))}
+            <Link
+              href="/blog"
+              className="text-sm text-fog hover:text-mist transition-colors w-fit mt-2"
+            >
+              Blog
+            </Link>
           </div>
         </div>
       </div>
