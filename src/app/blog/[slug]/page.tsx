@@ -5,6 +5,7 @@ import RevealOnScroll from '@/components/ui/RevealOnScroll'
 import FaqBlock from '@/components/services/FaqBlock'
 import { FinalCTA } from '@/components/home/FinalCTA'
 import { JsonLd } from '@/components/seo/JsonLd'
+import { UpdatedDate } from '@/components/seo/UpdatedDate'
 import { buildBreadcrumbSchema, buildBlogPostingSchema } from '@/lib/schema'
 import { blogPosts, getBlogPost } from '@/content/blog-data'
 import { getServicePage } from '@/content/services-data'
@@ -81,6 +82,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
               <p className="mt-8 text-body text-fog max-w-2xl leading-relaxed">
                 {post.excerpt}
               </p>
+              <UpdatedDate date={post.updatedAt.slice(0, 10)} />
             </div>
           </RevealOnScroll>
         </div>

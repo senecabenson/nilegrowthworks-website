@@ -3,6 +3,7 @@ export const pageDates: Record<string, string> = {
   '/services': '2026-09-15',
   '/about': '2026-09-15',
   '/client-admin-autopilot': '2026-09-15',
+  '/blog': '2026-09-15',
 }
 
 export const siteContent = {
