@@ -3,8 +3,10 @@ import RevealOnScroll from '@/components/ui/RevealOnScroll'
 import SectionHeading from '@/components/ui/SectionHeading'
 import { FinalCTA } from '@/components/home/FinalCTA'
 import { JsonLd } from '@/components/seo/JsonLd'
+import { UpdatedDate } from '@/components/seo/UpdatedDate'
 import { buildBreadcrumbSchema } from '@/lib/schema'
 import { blogPosts } from '@/content/blog-data'
+import { pageDates } from '@/content/site'
 
 const breadcrumb = buildBreadcrumbSchema([
   { name: 'Home', path: '/' },
@@ -39,6 +41,7 @@ export default function BlogIndexPage() {
               <p className="mt-8 text-body text-fog max-w-2xl leading-relaxed">
                 Notes from real diagnostics: where San Diego service businesses lose revenue, and what fixing it is worth.
               </p>
+              <UpdatedDate date={pageDates['/blog']} />
             </div>
           </RevealOnScroll>
         </div>
@@ -51,22 +54,24 @@ export default function BlogIndexPage() {
             <SectionHeading eyebrow="LATEST" title="Recent posts." titleAccent="posts." />
           </RevealOnScroll>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+          <ul className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
             {blogPosts.map((post, i) => (
-              <RevealOnScroll key={post.slug} delay={i * 0.1}>
-                <Link
-                  href={`/blog/${post.slug}`}
-                  className="block border border-mist/10 bg-navy-deep/60 p-6 sm:p-8 h-full hover:border-ember/40 transition-colors"
-                >
-                  <p className="text-xs uppercase tracking-[0.15em] text-slate">
-                    {formatDate(post.publishedAt)}
-                  </p>
-                  <h2 className="mt-4 font-display text-2xl text-mist">{post.title}</h2>
-                  <p className="mt-4 text-sm text-fog leading-relaxed">{post.excerpt}</p>
-                </Link>
-              </RevealOnScroll>
+              <li key={post.slug}>
+                <RevealOnScroll delay={i * 0.1}>
+                  <Link
+                    href={`/blog/${post.slug}`}
+                    className="block border border-mist/10 bg-navy-deep/60 p-6 sm:p-8 h-full hover:border-ember/40 transition-colors"
+                  >
+                    <p className="text-xs uppercase tracking-[0.15em] text-slate">
+                      {formatDate(post.publishedAt)}
+                    </p>
+                    <h2 className="mt-4 font-display text-2xl text-mist">{post.title}</h2>
+                    <p className="mt-4 text-sm text-fog leading-relaxed">{post.excerpt}</p>
+                  </Link>
+                </RevealOnScroll>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 

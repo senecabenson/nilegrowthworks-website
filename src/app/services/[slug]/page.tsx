@@ -6,6 +6,7 @@ import MagneticButton from '@/components/ui/MagneticButton'
 import FaqBlock from '@/components/services/FaqBlock'
 import { FinalCTA } from '@/components/home/FinalCTA'
 import { JsonLd } from '@/components/seo/JsonLd'
+import { UpdatedDate } from '@/components/seo/UpdatedDate'
 import { buildBreadcrumbSchema, buildVerticalServiceSchema } from '@/lib/schema'
 import { servicePages, getServicePage } from '@/content/services-data'
 
@@ -90,6 +91,7 @@ export default function ServiceVerticalPage({ params }: { params: { slug: string
                   {page.cta.label}
                 </MagneticButton>
               </div>
+              <UpdatedDate date={page.updatedAt} />
             </div>
           </RevealOnScroll>
         </div>
@@ -105,21 +107,23 @@ export default function ServiceVerticalPage({ params }: { params: { slug: string
               titleAccent="leaks."
             />
           </RevealOnScroll>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+          <ul className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
             {page.leakStats.map((stat, i) => (
-              <RevealOnScroll key={stat.descriptor} delay={i * 0.1}>
-                <div className="border border-mist/10 bg-ink/60 p-6 sm:p-8 h-full flex flex-col">
-                  <p className="font-display italic text-3xl sm:text-4xl md:text-5xl text-ember leading-none">
-                    {stat.stat}
-                  </p>
-                  <p className="mt-4 text-sm text-fog">{stat.descriptor}</p>
-                  <p className="mt-6 text-xs text-slate leading-relaxed border-t border-mist/10 pt-6">
-                    {stat.detail}
-                  </p>
-                </div>
-              </RevealOnScroll>
+              <li key={stat.descriptor}>
+                <RevealOnScroll delay={i * 0.1}>
+                  <div className="border border-mist/10 bg-ink/60 p-6 sm:p-8 h-full flex flex-col">
+                    <p className="font-display italic text-3xl sm:text-4xl md:text-5xl text-ember leading-none">
+                      {stat.stat}
+                    </p>
+                    <p className="mt-4 text-sm text-fog">{stat.descriptor}</p>
+                    <p className="mt-6 text-xs text-slate leading-relaxed border-t border-mist/10 pt-6">
+                      {stat.detail}
+                    </p>
+                  </div>
+                </RevealOnScroll>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
 
@@ -130,31 +134,33 @@ export default function ServiceVerticalPage({ params }: { params: { slug: string
             <SectionHeading eyebrow="THE DIAGNOSTIC" title="How it works." titleAccent="works." />
           </RevealOnScroll>
 
-          <div className="max-w-4xl">
+          <ol className="max-w-4xl">
             {page.howItWorks.map((step, i) => (
-              <RevealOnScroll key={step.step} delay={i * 0.1}>
-                <div
-                  className={`grid grid-cols-12 gap-8 py-10 ${
-                    i < page.howItWorks.length - 1 ? 'border-b border-mist/10' : ''
-                  }`}
-                >
-                  <div className="col-span-12 md:col-span-3">
-                    <p className="font-display italic text-4xl sm:text-5xl md:text-6xl leading-none text-ember">
-                      {step.step}
-                    </p>
+              <li key={step.step}>
+                <RevealOnScroll delay={i * 0.1}>
+                  <div
+                    className={`grid grid-cols-12 gap-8 py-10 ${
+                      i < page.howItWorks.length - 1 ? 'border-b border-mist/10' : ''
+                    }`}
+                  >
+                    <div className="col-span-12 md:col-span-3">
+                      <p className="font-display italic text-4xl sm:text-5xl md:text-6xl leading-none text-ember">
+                        {step.step}
+                      </p>
+                    </div>
+                    <div className="col-span-12 md:col-span-9">
+                      <h2 className="font-display text-2xl md:text-3xl text-mist">
+                        {step.title}
+                      </h2>
+                      <p className="mt-4 text-body text-fog leading-relaxed max-w-2xl">
+                        {step.body}
+                      </p>
+                    </div>
                   </div>
-                  <div className="col-span-12 md:col-span-9">
-                    <h2 className="font-display text-2xl md:text-3xl text-mist">
-                      {step.title}
-                    </h2>
-                    <p className="mt-4 text-body text-fog leading-relaxed max-w-2xl">
-                      {step.body}
-                    </p>
-                  </div>
-                </div>
-              </RevealOnScroll>
+                </RevealOnScroll>
+              </li>
             ))}
-          </div>
+          </ol>
 
           <RevealOnScroll delay={0.2}>
             <div className="mt-16 border border-mist/10 bg-navy-deep/60 p-6 sm:p-8 max-w-2xl">

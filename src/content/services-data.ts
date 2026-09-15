@@ -29,6 +29,7 @@ export interface ServicePage {
   howItWorks: HowItWorksStep[]
   faq: ServiceFaqItem[]
   cta: { label: string; href: string }
+  updatedAt: string
 }
 
 export const servicePages: ServicePage[] = [
@@ -109,6 +110,7 @@ export const servicePages: ServicePage[] = [
       },
     ],
     cta: { label: 'Book the PM Diagnostic', href: 'mailto:hello@nilegrowthworks.com?subject=Property Management Revenue Leak Diagnostic' },
+    updatedAt: '2026-09-15',
   },
   {
     slug: 'revenue-leak-diagnostic-hvac-plumbing',
@@ -187,6 +189,7 @@ export const servicePages: ServicePage[] = [
       },
     ],
     cta: { label: 'Book the HVAC & Plumbing Diagnostic', href: 'mailto:hello@nilegrowthworks.com?subject=HVAC & Plumbing Revenue Leak Diagnostic' },
+    updatedAt: '2026-09-15',
   },
   {
     slug: 'revenue-leak-diagnostic-med-spa',
@@ -265,6 +268,7 @@ export const servicePages: ServicePage[] = [
       },
     ],
     cta: { label: 'Book the Med Spa Diagnostic', href: 'mailto:hello@nilegrowthworks.com?subject=Med Spa Revenue Leak Diagnostic' },
+    updatedAt: '2026-09-15',
   },
 ]
 

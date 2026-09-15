@@ -2,7 +2,8 @@ import RevealOnScroll from '@/components/ui/RevealOnScroll'
 import SectionHeading from '@/components/ui/SectionHeading'
 import MagneticButton from '@/components/ui/MagneticButton'
 import { FinalCTA } from '@/components/home/FinalCTA'
-import { siteContent } from '@/content/site'
+import { siteContent, pageDates } from '@/content/site'
+import { UpdatedDate } from '@/components/seo/UpdatedDate'
 
 // Wraps a titleAccent substring in the same ember-italic treatment SectionHeading
 // uses, for the hand-rolled hero heading on this page (mirrors services/about hero pattern).
@@ -44,6 +45,7 @@ export default function ClientAdminAutopilotPage() {
               <p className="mt-4 text-body text-fog/80 max-w-2xl leading-relaxed">
                 {hero.promise}
               </p>
+              <UpdatedDate date={pageDates['/client-admin-autopilot']} />
             </div>
           </RevealOnScroll>
         </div>

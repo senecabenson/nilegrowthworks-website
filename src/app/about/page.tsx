@@ -5,7 +5,8 @@ import { FounderStory } from '@/components/about/FounderStory'
 import { ProofStrip } from '@/components/about/ProofStrip'
 import { ValuesGrid } from '@/components/about/ValuesGrid'
 import { FinalCTA } from '@/components/home/FinalCTA'
-import { siteContent } from '@/content/site'
+import { siteContent, pageDates } from '@/content/site'
+import { UpdatedDate } from '@/components/seo/UpdatedDate'
 
 export default function AboutPage() {
   const { partnership } = siteContent.about
@@ -26,6 +27,7 @@ export default function AboutPage() {
                   we&rsquo;d had.
                 </em>
               </h1>
+              <UpdatedDate date={pageDates['/about']} />
             </div>
           </RevealOnScroll>
         </div>

@@ -8,11 +8,16 @@ import { RevenueCalculator } from '@/components/home/RevenueCalculator'
 import { AboutSnippet } from '@/components/home/AboutSnippet'
 import { RevenueOpsExplainer } from '@/components/home/RevenueOpsExplainer'
 import { FinalCTA } from '@/components/home/FinalCTA'
+import { UpdatedDate } from '@/components/seo/UpdatedDate'
+import { pageDates } from '@/content/site'
 
 export default function Home() {
   return (
     <>
       <Hero />
+      <div className="container-x">
+        <UpdatedDate date={pageDates['/']} />
+      </div>
       <LeakVisualization />
       <ProblemStatement />
       <RevenueOpsExplainer />

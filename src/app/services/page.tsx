@@ -5,7 +5,8 @@ import TierCard from '@/components/services/TierCard'
 import ComparisonTable from '@/components/services/ComparisonTable'
 import FaqBlock from '@/components/services/FaqBlock'
 import { FinalCTA } from '@/components/home/FinalCTA'
-import { siteContent } from '@/content/site'
+import { siteContent, pageDates } from '@/content/site'
+import { UpdatedDate } from '@/components/seo/UpdatedDate'
 import { servicePages } from '@/content/services-data'
 import { JsonLd } from '@/components/seo/JsonLd'
 import { buildBreadcrumbSchema, buildServiceSchema } from '@/lib/schema'
@@ -46,6 +47,7 @@ export default function ServicesPage() {
                 numbers warrant it. Or scope a custom build inside the stack
                 you already run. You pick the door. The outcome is the same.
               </p>
+              <UpdatedDate date={pageDates['/services']} />
             </div>
           </RevealOnScroll>
         </div>
