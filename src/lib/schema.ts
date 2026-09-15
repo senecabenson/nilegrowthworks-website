@@ -1,4 +1,6 @@
 import { siteContent } from '@/content/site'
+import type { ServicePage } from '@/content/services-data'
+import type { BlogPost } from '@/content/blog-data'
 
 const SITE_URL = 'https://nilegrowthworks.com'
 
@@ -92,6 +94,58 @@ export function buildServiceSchema() {
       price: tier.price,
       description: tier.blurb,
     })),
+  })
+}
+
+export function buildVerticalServiceSchema(page: ServicePage) {
+  const url = `${SITE_URL}/services/${page.slug}`
+
+  return omitEmpty({
+    '@context': 'https://schema.org',
+    '@type': 'Service',
+    '@id': `${url}/#service`,
+    name: page.title,
+    serviceType: 'Revenue Leak Diagnostic',
+    provider: { '@id': `${SITE_URL}/#org` },
+    areaServed: [...siteContent.organization.areaServed],
+    audience: {
+      '@type': 'Audience',
+      audienceType: page.vertical,
+    },
+    description: page.metaDescription,
+    url,
+    offers: {
+      '@type': 'Offer',
+      name: 'Revenue Leak Diagnostic',
+      priceCurrency: 'USD',
+      priceSpecification: {
+        '@type': 'PriceSpecification',
+        minPrice: 500,
+        maxPrice: 750,
+        priceCurrency: 'USD',
+      },
+    },
+  })
+}
+
+export function buildBlogPostingSchema(post: BlogPost) {
+  const url = `${SITE_URL}/blog/${post.slug}`
+
+  return omitEmpty({
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    '@id': `${url}/#post`,
+    headline: post.title,
+    description: post.metaDescription,
+    url,
+    datePublished: post.publishedAt,
+    dateModified: post.updatedAt,
+    author: {
+      '@type': 'Person',
+      name: siteContent.organization.founder,
+    },
+    publisher: { '@id': `${SITE_URL}/#org` },
+    mainEntityOfPage: url,
   })
 }
 

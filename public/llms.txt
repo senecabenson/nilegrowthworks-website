@@ -6,8 +6,13 @@
 
 - [Home](https://nilegrowthworks.com/): The revenue leak framework, a live revenue calculator, and the three-tier service model.
 - [Services](https://nilegrowthworks.com/services): Three ways to work with NILE: the $500 Revenue Leak Diagnostic, the Full Engagement build-and-run, and Custom Build inside your existing stack. Includes an FAQ.
+- [Revenue Leak Diagnostic for Property Management](https://nilegrowthworks.com/services/revenue-leak-diagnostic-property-management): $500-$750 diagnostic for San Diego property managers. Maps missed owner placements and slow tenant renewal follow-up, priced in dollars. Includes an FAQ.
+- [Revenue Leak Diagnostic for HVAC & Plumbing](https://nilegrowthworks.com/services/revenue-leak-diagnostic-hvac-plumbing): $500-$750 diagnostic for San Diego HVAC and plumbing shops. Maps missed calls, slow dispatch, and rebooking gaps, priced in dollars. Includes an FAQ.
+- [Revenue Leak Diagnostic for Med Spa & Aesthetics](https://nilegrowthworks.com/services/revenue-leak-diagnostic-med-spa): $500-$750 diagnostic for San Diego med spas. Maps uncaptured repeat-client follow-up and missed inquiry response, priced in dollars. Includes an FAQ.
 - [About](https://nilegrowthworks.com/about): Who NILE GrowthWorks is, founder Seneca Benson's background, and the operating values behind the work.
 - [Client Admin Autopilot](https://nilegrowthworks.com/client-admin-autopilot): A 5-automation productized offer for service businesses losing money to admin gaps: intake, payment reminders, waiver tracking, payment logging, and an end-of-day rollup.
+- [Blog](https://nilegrowthworks.com/blog): Revenue leak breakdowns and system-building notes for San Diego service businesses.
+  - [How San Diego Service Businesses Leak Revenue](https://nilegrowthworks.com/blog/how-san-diego-service-businesses-leak-revenue): Where property management, HVAC/plumbing, and med spa businesses actually lose revenue, with real numbers and a path to the Revenue Leak Diagnostic. Includes an FAQ.
 
 ## Contact
 

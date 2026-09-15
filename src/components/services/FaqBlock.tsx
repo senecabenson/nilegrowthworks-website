@@ -4,8 +4,12 @@ import { JsonLd } from '@/components/seo/JsonLd'
 import { buildFaqSchema } from '@/lib/schema'
 import { siteContent } from '@/content/site'
 
-export default function FaqBlock() {
-  const { faq } = siteContent.services
+interface FaqBlockProps {
+  faq?: { question: string; answer: string }[]
+}
+
+export default function FaqBlock({ faq: faqProp }: FaqBlockProps = {}) {
+  const faq = faqProp ?? siteContent.services.faq
 
   return (
     <section className="py-24 bg-navy-deep">

@@ -17,6 +17,7 @@ export const siteContent = {
     links: [
       { label: 'Home', href: '/' },
       { label: 'Services', href: '/services' },
+      { label: 'Blog', href: '/blog' },
       { label: 'About', href: '/about' },
     ],
     cta: { label: 'Start a Diagnostic', href: '/#diagnostic' },
