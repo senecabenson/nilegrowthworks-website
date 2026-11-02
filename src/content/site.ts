@@ -288,7 +288,7 @@ export const siteContent = {
       stats: [
         { value: '5% → 20%', label: 'Close rate', context: 'The Capture Corner: automated lead qualification and booking flow, same team size.' },
         { value: '$5K → $100K', label: 'ARR scaled', context: 'Lean team at The Capture Corner, entirely on automated revenue-ops systems I designed, shipped, and iterated in production.' },
-        { value: '+28% / -94%', label: 'Efficiency / duplicates', context: 'Multi-department Dynamics 365 optimization program in a prior enterprise role.' },
+        { value: '8,055', label: 'Accounts re-mapped', context: 'Onto 3,515 verified main accounts, with 2,714 hours of cleanup moved off sellers. CRM account model redesign I led in a prior enterprise role.' },
         { value: '$95M', label: 'Revenue program supported', context: 'Great Plains ERP implementation in a prior enterprise role, supporting accurate financial reporting across the revenue cycle.' },
       ],
     },
